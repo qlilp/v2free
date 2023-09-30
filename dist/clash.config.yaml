@@ -5775,9 +5775,37 @@ proxies:
   port: 443
   server: 212.102.53.195
   type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _02_25@1
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _03_25@2
+  port: 1069
+  server: 152.69.197.60
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- country: 🇨🇦CA
+  name: Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  password: opentunnel.net-newdday
+  port: 443
+  server: cat-1.opensvr.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🇱🇹LT
-  name: 🇱🇹LT_02_25@1
+  name: 🇱🇹LT_05_25@4
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.185.15
@@ -5787,7 +5815,7 @@ proxies:
   country: 🇷🇸RS
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇷🇸RS-🇬🇧GB_03_25@2
+  name: Relay_🇷🇸RS-🇬🇧GB_06_25@5
   network: tcp
   port: 52920
   server: 37.120.193.102
@@ -5797,66 +5825,45 @@ proxies:
   ws-path: /
 - cipher: chacha20-ietf-poly1305
   country: 🇷🇺RU
-  name: 🇷🇺RU_04_25@3
-  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
-  port: 13022
-  server: 212.113.106.243
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: 🇷🇺RU_05_25@4
+  name: 🇷🇺RU_07_25@6
   password: P2zxXPewlV3BlfqqYiSthvtLc
   port: 12949
   server: 212.113.106.243
   type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 🇸🇬SG_06_25@5
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  server: 139.162.41.174
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 🇷🇺RU_08_25@7
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  port: 13022
+  server: 212.113.106.243
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 🇸🇬SG_07_25@6
+  name: 🇸🇬SG_09_25@8
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   server: 139.162.5.19
   type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_08_25@7
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.188.99
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_09_25@8
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 167.88.61.175
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_10_25@9
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 142.202.48.7
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 🇸🇬SG_10_25@9
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8099
+  server: 139.162.41.174
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_11_25@10
   password: Y6R9pAtvxxzmGC
-  port: 8888
+  port: 5001
   server: 172.99.188.99
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_12_25@11
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 172.99.188.99
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 167.88.61.175
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
@@ -5868,16 +5875,37 @@ proxies:
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_14_25@13
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 172.99.188.99
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_15_25@14
   password: faBAoD54k87UJG7
   port: 2376
   server: 142.202.48.7
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_16_25@15
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 142.202.48.7
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_17_25@16
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 172.99.188.99
   type: ss
 - alterId: 64
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_15_25@14
+  name: Relay_🇺🇸US-🇺🇸US_19_25@18
   network: ws
   port: 443
   server: 107.167.16.85
@@ -5894,7 +5922,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_16_25@15
+  name: 🇺🇸US_20_25@19
   network: tcp
   port: 52408
   server: 129.146.46.181
@@ -5907,20 +5935,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_17_25@16
-  network: tcp
-  port: 37869
-  server: 45.63.106.86
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4c90d167-e65b-4419-d455-eb635724d2ed
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_18_25@17
+  name: Relay_🇺🇸US-🇨🇦CA_21_25@20
   network: ws
   port: 443
   server: api.jquery.com
@@ -5933,42 +5948,18 @@ proxies:
     HOST: sub.yifenjichang.top
   ws-path: /oliv.beauty:443/linkvws
 - country: 🇺🇸US
-  name: 🇺🇸US_19_25@18
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  name: Relay_🇺🇸US-🇩🇪DE_22_25@21
+  password: 2b2d6a27-6e72-4090-bb53-26f45558a0bc
   port: 443
-  server: tw02.trojanyyds.xyz
+  server: ap.stablize.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_20_25@19
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  name: Relay_🇺🇸US-🇸🇬SG_23_25@22
+  password: 5b51e0af-08af-4208-b834-6d6ac5721837
   port: 443
-  server: my01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_21_25@20
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
-  port: 443
-  server: sk01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_22_25@21
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
-  port: 443
-  server: tw01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_23_25@22
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
-  port: 443
-  server: hk03.trojanyyds.xyz
+  server: sg.stablize.top
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -5980,16 +5971,32 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🏁ZZ
-  name: 🏁ZZ_25_25@24
-  password: faf42aa0a9ad4c1e
-  port: 3306
-  server: 5.44.249.50
+- country: 🇺🇸US
+  name: 🇺🇸US_25_25@24
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_26_25@25
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_27_25@26
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: hk03.trojanyyds.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🏁ZZ
-  name: 🏁ZZ_26_25@25
+  name: 🏁ZZ_28_25@27
   password: 5227e84e4f026b71
   port: 3306
   server: 5.44.249.43
@@ -5997,10 +6004,18 @@ proxies:
   type: trojan
   udp: true
 - country: 🏁ZZ
-  name: 🏁ZZ_27_25@26
+  name: 🏁ZZ_29_25@28
   password: 36fe28a331638747
   port: 3306
   server: 5.44.249.42
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🏁ZZ
+  name: 🏁ZZ_30_25@29
+  password: faf42aa0a9ad4c1e
+  port: 3306
+  server: 5.44.249.50
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -7419,7 +7434,7 @@ proxies:
   sni: jgwcc1.gaox.ml
   type: trojan
 - cipher: aes-256-cfb
-  name: _03 |23.86Mb_27@2
+  name: _02 |23.86Mb_27@2
   password: doub.io
   port: 2333
   server: 54.199.83.239
@@ -7428,7 +7443,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _06 |15.18Mb_27@4
+  name: _08 |15.18Mb_27@6
   network: tcp
   port: 54982
   server: 154.85.1.244
@@ -7437,11 +7452,22 @@ proxies:
   uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
   ws-headers:
     Host: 154.85.1.244
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _13 |27.84Mb_27@10
+  network: tcp
+  port: 52792
+  server: 156.225.67.102
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _10 |67.12Mb_27@8
+  name: _14 |67.12Mb_27@11
   network: ws
   port: 2096
   server: mci1.amo2023.club
@@ -7452,41 +7478,18 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _11 |69.40Mb_27@9
-  network: tcp
-  port: 22324
-  server: 172.99.190.12
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: _18 | 8.49Mb_27@13
+  name: _16 | 8.49Mb_27@16
   network: ws
   port: 2082
   server: se1.xv2ray.net
   skip-cert-verify: true
   type: vmess
   uuid: fd31d195-06f6-4b48-92db-7cb1dc749f66
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: _23_27@15
-  network: ws
-  port: 80
-  server: bl.shabijichang.com
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
 - alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _26 |31.90Mb_27@18
+  name: _28 |31.90Mb_27@18
   network: tcp
   port: 48855
   server: 45.199.138.157
@@ -7499,7 +7502,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _27 |22.67Mb_27@19
+  name: _29 |22.67Mb_27@19
   network: tcp
   port: 48112
   server: 45.199.138.162
@@ -7512,7 +7515,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _28 | 4.60Mb_27@20
+  name: _27 | 4.60Mb_27@20
   network: tcp
   port: 42952
   server: 156.245.8.146
@@ -7525,7 +7528,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _31 |48.60Mb_27@22
+  name: _34 |30.10Mb_27@23
   network: tcp
   port: 39661
   server: 45.199.138.229
@@ -7536,7 +7539,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _33 |21.45Mb_27@23
+  name: _35 |37.34Mb_27@24
   network: tcp
   port: 54127
   server: 45.199.138.151
@@ -7545,11 +7548,45 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
   ws-headers:
     Host: 45.199.138.151
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _46 |40.78Mb_27@26
+  network: tcp
+  port: 22324
+  server: 172.99.190.12
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _36_27@27
+  network: ws
+  port: 80
+  server: bl.shabijichang.com
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
 - alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _39 |21.46Mb_27@29
+  name: _39 |24.05Mb_27@29
+  network: tcp
+  port: 46833
+  server: 45.199.138.227
+  skip-cert-verify: true
+  type: vmess
+  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _40 |21.46Mb_27@30
   network: tcp
   port: 35571
   server: 45.199.138.183
@@ -7560,18 +7597,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _40 |56.97Mb_27@30
-  network: tcp
-  port: 41478
-  server: 45.199.138.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: _42 |19.73Mb_27@32
+  name: _38 | 9.31Mb_27@35
   network: tcp
   port: 41170
   server: 45.199.138.203
@@ -7582,7 +7608,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _44 |67.59Mb_27@34
+  name: _42 |30.41Mb_27@36
   port: 38555
   server: 45.199.138.159
   type: vmess
@@ -7591,7 +7617,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _45 |60.46Mb_27@35
+  name: _47 | 3.08Mb_27@37
   port: 44094
   server: 45.199.138.206
   type: vmess
@@ -7600,18 +7626,29 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _46 |74.14Mb_27@36
+  name: _44 |58.72Mb_27@38
   network: tcp
   port: 58336
   server: 45.199.138.198
   skip-cert-verify: true
   type: vmess
   uuid: 6fa560d4-35c5-4968-adfc-812c52878b84
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _45 |40.07Mb_27@39
+  network: tcp
+  port: 22324
+  server: 23.158.56.89
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _48 |61.03Mb_27@37
+  name: _49 |28.72Mb_27@40
   network: tcp
   port: 50380
   server: 156.225.67.25
@@ -7622,7 +7659,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _50 | 5.67Mb_27@38
+  name: _05 | 7.39Mb_27@41
   network: tcp
   port: 53986
   server: 192.74.224.162
@@ -7631,19 +7668,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 192.74.224.162
-- alterId: 0
+- alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _51 |65.94Mb_27@39
+  name: _41 |35.80Mb_27@43
   network: tcp
-  port: 22324
-  server: 23.158.56.89
+  port: 41478
+  server: 45.199.138.233
   skip-cert-verify: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - country: 🇩🇪 DE
-  name: 🇩🇪 DE_67 |51.25Mb_27@55
+  name: 🇩🇪 DE_68 |26.47Mb_27@57
   password: telegram-id-privatevpns
   port: 22222
   server: 54.93.213.167
@@ -7651,23 +7688,31 @@ proxies:
   type: trojan
   udp: true
 - country: 🇩🇪 DE
-  name: 🇩🇪 DE_68 |51.89Mb_27@56
-  password: telegram-id-privatevpns
+  name: 🇩🇪 DE_65 |76.31Mb_27@58
+  password: telegram-id-directvpn
   port: 22222
-  server: 3.120.81.8
+  server: 18.196.144.232
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇩🇪 DE
-  name: 🇩🇪 DE_69 |62.37Mb_27@57
+  name: 🇩🇪 DE_67 | 1.94Mb_27@59
   password: telegram-id-privatevpns
   port: 22222
   server: 35.158.24.130
   skip-cert-verify: true
   type: trojan
   udp: true
+- country: 🇩🇪 DE
+  name: 🇩🇪 DE_66 |27.01Mb_27@60
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.120.81.8
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - country: 🇪🇸 ES
-  name: 🇪🇸 ES_70 |67.40Mb_27@58
+  name: 🇪🇸 ES_68 |50.91Mb_27@61
   password: 6e31f936a2
   port: 443
   server: sp1.connecton.surf
@@ -7675,7 +7720,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🇪🇸 ES
-  name: 🇪🇸 ES_71 |66.60Mb_27@59
+  name: 🇪🇸 ES_69 |40.09Mb_27@62
   password: 6e31f936a2
   port: 443
   server: 82.223.108.64
@@ -7684,135 +7729,103 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 🇫🇷 FR_72 |16.04Mb_27@60
+  name: 🇫🇷 FR_72 | 7.77Mb_27@63
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 🇫🇷 FR_70_27@64
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 🇫🇷 FR_74 |10.15Mb_27@65
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 145.239.1.100
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 🇫🇷 FR_73_27@61
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 🇫🇷 FR_74 | 7.90Mb_27@62
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 🇫🇷 FR_75 | 7.98Mb_27@63
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 🇫🇷 FR_76_27@64
+  name: 🇫🇷 FR_73_27@66
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
 - country: 🇫🇷 FR
-  name: 🇫🇷 FR_77_27@65
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.188.137.150
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇫🇷 FR
-  name: 🇫🇷 FR_78_27@66
+  name: 🇫🇷 FR_76_27@67
   password: telegram-id-privatevpns
   port: 22222
   server: 35.180.248.197
   skip-cert-verify: true
   type: trojan
   udp: true
+- country: 🇫🇷 FR
+  name: 🇫🇷 FR_75_27@68
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.188.137.150
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - country: 🇬🇧 GB
-  name: 🇬🇧 GB_79 |36.74Mb_27@67
+  name: 🇬🇧 GB_77 |17.79Mb_27@69
   password: telegram-id-privatevpns
   port: 22222
   server: 18.133.145.225
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🇬🇧 GB
-  name: 🇬🇧 GB_80 |53.02Mb_27@68
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.9.33.234
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK_82_27@69
-  network: ws
-  port: 4443
-  server: hkbn1.411api-snisajdnjkndd.com
-  servername: hkbn1.411api-snisajdnjkndd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-headers:
-    HOST: hkbn1.411api-snisajdnjkndd.com
-  ws-path: /
 - country: 🇮🇪 IE
-  name: 🇮🇪 IE_83 |26.76Mb_27@70
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 176.34.139.67
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇮🇪 IE
-  name: 🇮🇪 IE_84 |22.82Mb_27@71
+  name: 🇮🇪 IE_81 |17.95Mb_27@70
   password: telegram-id-privatevpns
   port: 22222
   server: 18.200.223.142
   skip-cert-verify: true
   type: trojan
   udp: true
+- country: 🇮🇪 IE
+  name: 🇮🇪 IE_80 |14.71Mb_27@71
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 176.34.139.67
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇷🇺 RU
-  name: 🇷🇺 RU_85 |50.85Mb_27@72
+  name: 🇷🇺 RU_82 |26.37Mb_27@72
   password: DM0395LVqx65zxDMpyl
   port: 51348
   server: 45.145.0.31
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇦 UA
-  name: 🇺🇦 UA_86 | 2.91Mb_27@73
+  name: 🇺🇦 UA_83 | 2.20Mb_27@73
   password: ho450MJHBVfdgsjkqw12HGb
   port: 51348
   server: 193.0.61.96
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
-  name: 🇺🇸 US_87 | 6.79Mb_27@74
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.61.175
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_89 | 8.63Mb_27@76
+  name: 🇺🇸 US_84 | 8.65Mb_27@74
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.121.43.71
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
-  name: 🇺🇸 US_90 | 8.69Mb_27@77
+  name: 🇺🇸 US_87 | 6.20Mb_27@76
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_85 | 8.67Mb_27@77
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
@@ -7822,7 +7835,7 @@ proxies:
   country: 🇺🇸 US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US_91 | 1.90Mb_27@78
+  name: 🇺🇸 US_88 | 1.90Mb_27@79
   network: ws
   port: 80
   server: 104.16.117.47
@@ -7838,7 +7851,7 @@ proxies:
   country: 🇺🇸 US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US_92 |56.11Mb_27@79
+  name: 🇺🇸 US_93 |56.11Mb_27@80
   network: ws
   port: 443
   server: 104.16.109.61
@@ -7850,101 +7863,8 @@ proxies:
   ws-headers:
     HOST: icy-mountain-b47b.xigulizi4023.workers.dev
   ws-path: /Amsterdam.kotick.site/speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_93 | 5.06Mb_27@80
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  servername: lu.wx.alue.link
-  skip-cert-verify: true
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-headers:
-    HOST: lu.wx.alue.link
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_94 |15.45Mb_27@81
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: true
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
 - country: 🇺🇸 US
-  name: 🇺🇸 US_95_27@82
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.36.41.150
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_96 |69.91Mb_27@83
-  password: telegram-id-directvpn
-  port: 22222
-  server: 51.20.61.115
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_97 |28.19Mb_27@84
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.20.99.76
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_98 |52.75Mb_27@85
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.169.49.42
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_99 |63.61Mb_27@86
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.51.83.233
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_100 |70.68Mb_27@87
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.169.55.212
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_101 |48.21Mb_27@88
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.169.125.137
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_102 |43.87Mb_27@89
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.16.228.197
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_103 |24.08Mb_27@90
+  name: 🇺🇸 US_97 |32.52Mb_27@81
   password: telegram-id-directvpn
   port: 22222
   server: 3.12.75.7
@@ -7952,7 +7872,55 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸 US
-  name: 🇺🇸 US_104 |28.47Mb_27@91
+  name: 🇺🇸 US_91 | 4.00Mb_27@82
+  password: telegram-id-directvpn
+  port: 22222
+  server: 51.20.61.115
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_93 |14.78Mb_27@83
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.16.228.197
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_92 |45.80Mb_27@84
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.49.42
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_100 |14.82Mb_27@85
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.51.83.233
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_90 |70.68Mb_27@86
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.55.212
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_96_27@87
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.41.150
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_98 |14.44Mb_27@88
   password: telegram-id-directvpn
   port: 22222
   server: 44.231.29.152
@@ -7960,7 +7928,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸 US
-  name: 🇺🇸 US_105 |59.21Mb_27@92
+  name: 🇺🇸 US_95 |19.18Mb_27@89
   password: telegram-id-directvpn
   port: 22222
   server: 3.70.139.219
@@ -7968,29 +7936,29 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸 US
-  name: 🇺🇸 US_106_27@93
+  name: 🇺🇸 US_103 |28.19Mb_27@90
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.20.99.76
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_99_27@91
   password: telegram-id-privatevpns
   port: 22222
   server: 13.38.156.254
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🏁 ZZ_107 | 2.31Mb_27@94
-  network: ws
-  port: 2052
-  server: 162.159.152.6
-  servername: lu.wx.alue.link
+- country: 🇺🇸 US
+  name: 🇺🇸 US_94 |13.76Mb_27@92
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.169.125.137
   skip-cert-verify: true
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-headers:
-    HOST: lu.wx.alue.link
-  ws-path: /
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -8515,32 +8483,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -8707,65 +8677,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -9289,32 +9256,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -9481,65 +9450,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -10067,32 +10033,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -10259,65 +10227,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   type: select
 - name: 📲 电报信息
   proxies:
@@ -10842,32 +10807,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -11034,65 +11001,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -11617,32 +11581,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -11809,65 +11775,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -12392,32 +12355,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -12584,65 +12549,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -13184,32 +13146,34 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_24@35
   - 🇺🇸_US_美国_12_24@36
   - _01_25@0
-  - 🇱🇹LT_02_25@1
-  - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇷🇺RU_04_25@3
-  - 🇷🇺RU_05_25@4
-  - 🇸🇬SG_06_25@5
-  - 🇸🇬SG_07_25@6
-  - 🇺🇸US_08_25@7
-  - 🇺🇸US_09_25@8
-  - 🇺🇸US_10_25@9
+  - _02_25@1
+  - _03_25@2
+  - Relay_🇨🇦CA-🇨🇦CA_04_25@3
+  - 🇱🇹LT_05_25@4
+  - Relay_🇷🇸RS-🇬🇧GB_06_25@5
+  - 🇷🇺RU_07_25@6
+  - 🇷🇺RU_08_25@7
+  - 🇸🇬SG_09_25@8
+  - 🇸🇬SG_10_25@9
   - 🇺🇸US_11_25@10
   - 🇺🇸US_12_25@11
   - 🇺🇸US_13_25@12
   - 🇺🇸US_14_25@13
-  - Relay_🇺🇸US-🇺🇸US_15_25@14
+  - 🇺🇸US_15_25@14
   - 🇺🇸US_16_25@15
   - 🇺🇸US_17_25@16
-  - Relay_🇺🇸US-🇺🇸US_18_25@17
-  - 🇺🇸US_19_25@18
+  - Relay_🇺🇸US-🇺🇸US_19_25@18
   - 🇺🇸US_20_25@19
-  - 🇺🇸US_21_25@20
-  - 🇺🇸US_22_25@21
-  - 🇺🇸US_23_25@22
+  - Relay_🇺🇸US-🇨🇦CA_21_25@20
+  - Relay_🇺🇸US-🇩🇪DE_22_25@21
+  - Relay_🇺🇸US-🇸🇬SG_23_25@22
   - 🇺🇸US_24_25@23
-  - 🏁ZZ_25_25@24
-  - 🏁ZZ_26_25@25
-  - 🏁ZZ_27_25@26
+  - 🇺🇸US_25_25@24
+  - 🇺🇸US_26_25@25
+  - 🇺🇸US_27_25@26
+  - 🏁ZZ_28_25@27
+  - 🏁ZZ_29_25@28
+  - 🏁ZZ_30_25@29
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -13376,65 +13340,62 @@ proxy-groups:
   - 🇳🇱 NL_205_26@163
   - 🇸🇬 SG_43_26@164
   - 🇰🇷 韩国_26@165
-  - _03 |23.86Mb_27@2
-  - _06 |15.18Mb_27@4
-  - _10 |67.12Mb_27@8
-  - _11 |69.40Mb_27@9
-  - _18 | 8.49Mb_27@13
-  - _23_27@15
-  - _26 |31.90Mb_27@18
-  - _27 |22.67Mb_27@19
-  - _28 | 4.60Mb_27@20
-  - _31 |48.60Mb_27@22
-  - _33 |21.45Mb_27@23
-  - _39 |21.46Mb_27@29
-  - _40 |56.97Mb_27@30
-  - _42 |19.73Mb_27@32
-  - _44 |67.59Mb_27@34
-  - _45 |60.46Mb_27@35
-  - _46 |74.14Mb_27@36
-  - _48 |61.03Mb_27@37
-  - _50 | 5.67Mb_27@38
-  - _51 |65.94Mb_27@39
-  - 🇩🇪 DE_67 |51.25Mb_27@55
-  - 🇩🇪 DE_68 |51.89Mb_27@56
-  - 🇩🇪 DE_69 |62.37Mb_27@57
-  - 🇪🇸 ES_70 |67.40Mb_27@58
-  - 🇪🇸 ES_71 |66.60Mb_27@59
-  - 🇫🇷 FR_72 |16.04Mb_27@60
-  - 🇫🇷 FR_73_27@61
-  - 🇫🇷 FR_74 | 7.90Mb_27@62
-  - 🇫🇷 FR_75 | 7.98Mb_27@63
-  - 🇫🇷 FR_76_27@64
-  - 🇫🇷 FR_77_27@65
-  - 🇫🇷 FR_78_27@66
-  - 🇬🇧 GB_79 |36.74Mb_27@67
-  - 🇬🇧 GB_80 |53.02Mb_27@68
-  - 🇭🇰 HK_82_27@69
-  - 🇮🇪 IE_83 |26.76Mb_27@70
-  - 🇮🇪 IE_84 |22.82Mb_27@71
-  - 🇷🇺 RU_85 |50.85Mb_27@72
-  - 🇺🇦 UA_86 | 2.91Mb_27@73
-  - 🇺🇸 US_87 | 6.79Mb_27@74
-  - 🇺🇸 US_89 | 8.63Mb_27@76
-  - 🇺🇸 US_90 | 8.69Mb_27@77
-  - 🇺🇸 US_91 | 1.90Mb_27@78
-  - 🇺🇸 US_92 |56.11Mb_27@79
-  - 🇺🇸 US_93 | 5.06Mb_27@80
-  - 🇺🇸 US_94 |15.45Mb_27@81
-  - 🇺🇸 US_95_27@82
-  - 🇺🇸 US_96 |69.91Mb_27@83
-  - 🇺🇸 US_97 |28.19Mb_27@84
-  - 🇺🇸 US_98 |52.75Mb_27@85
-  - 🇺🇸 US_99 |63.61Mb_27@86
-  - 🇺🇸 US_100 |70.68Mb_27@87
-  - 🇺🇸 US_101 |48.21Mb_27@88
-  - 🇺🇸 US_102 |43.87Mb_27@89
-  - 🇺🇸 US_103 |24.08Mb_27@90
-  - 🇺🇸 US_104 |28.47Mb_27@91
-  - 🇺🇸 US_105 |59.21Mb_27@92
-  - 🇺🇸 US_106_27@93
-  - 🏁 ZZ_107 | 2.31Mb_27@94
+  - _02 |23.86Mb_27@2
+  - _08 |15.18Mb_27@6
+  - _13 |27.84Mb_27@10
+  - _14 |67.12Mb_27@11
+  - _16 | 8.49Mb_27@16
+  - _28 |31.90Mb_27@18
+  - _29 |22.67Mb_27@19
+  - _27 | 4.60Mb_27@20
+  - _34 |30.10Mb_27@23
+  - _35 |37.34Mb_27@24
+  - _46 |40.78Mb_27@26
+  - _36_27@27
+  - _39 |24.05Mb_27@29
+  - _40 |21.46Mb_27@30
+  - _38 | 9.31Mb_27@35
+  - _42 |30.41Mb_27@36
+  - _47 | 3.08Mb_27@37
+  - _44 |58.72Mb_27@38
+  - _45 |40.07Mb_27@39
+  - _49 |28.72Mb_27@40
+  - _05 | 7.39Mb_27@41
+  - _41 |35.80Mb_27@43
+  - 🇩🇪 DE_68 |26.47Mb_27@57
+  - 🇩🇪 DE_65 |76.31Mb_27@58
+  - 🇩🇪 DE_67 | 1.94Mb_27@59
+  - 🇩🇪 DE_66 |27.01Mb_27@60
+  - 🇪🇸 ES_68 |50.91Mb_27@61
+  - 🇪🇸 ES_69 |40.09Mb_27@62
+  - 🇫🇷 FR_72 | 7.77Mb_27@63
+  - 🇫🇷 FR_70_27@64
+  - 🇫🇷 FR_74 |10.15Mb_27@65
+  - 🇫🇷 FR_73_27@66
+  - 🇫🇷 FR_76_27@67
+  - 🇫🇷 FR_75_27@68
+  - 🇬🇧 GB_77 |17.79Mb_27@69
+  - 🇮🇪 IE_81 |17.95Mb_27@70
+  - 🇮🇪 IE_80 |14.71Mb_27@71
+  - 🇷🇺 RU_82 |26.37Mb_27@72
+  - 🇺🇦 UA_83 | 2.20Mb_27@73
+  - 🇺🇸 US_84 | 8.65Mb_27@74
+  - 🇺🇸 US_87 | 6.20Mb_27@76
+  - 🇺🇸 US_85 | 8.67Mb_27@77
+  - 🇺🇸 US_88 | 1.90Mb_27@79
+  - 🇺🇸 US_93 |56.11Mb_27@80
+  - 🇺🇸 US_97 |32.52Mb_27@81
+  - 🇺🇸 US_91 | 4.00Mb_27@82
+  - 🇺🇸 US_93 |14.78Mb_27@83
+  - 🇺🇸 US_92 |45.80Mb_27@84
+  - 🇺🇸 US_100 |14.82Mb_27@85
+  - 🇺🇸 US_90 |70.68Mb_27@86
+  - 🇺🇸 US_96_27@87
+  - 🇺🇸 US_98 |14.44Mb_27@88
+  - 🇺🇸 US_95 |19.18Mb_27@89
+  - 🇺🇸 US_103 |28.19Mb_27@90
+  - 🇺🇸 US_99_27@91
+  - 🇺🇸 US_94 |13.76Mb_27@92
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
