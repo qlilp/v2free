@@ -4796,15 +4796,13 @@ proxies:
   port: 443
   server: 212.102.53.195
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: _02_25@1
-  port: 1069
-  server: 152.69.197.60
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- cipher: aes-256-cfb
+  country: 🇱🇹LT
+  name: 🇱🇹LT_02_25@1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.15
+  type: ss
 - alterId: 64
   cipher: auto
   country: 🇷🇸RS
@@ -4818,40 +4816,40 @@ proxies:
   type: vmess
   uuid: 57170ff0-7180-4664-8f61-8debdda345f7
   ws-path: /
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 🇸🇬SG_04_25@3
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  server: 139.162.41.174
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 🇷🇺RU_04_25@3
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  port: 13022
+  server: 212.113.106.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 🇷🇺RU_05_25@4
+  password: P2zxXPewlV3BlfqqYiSthvtLc
+  port: 12949
+  server: 212.113.106.243
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 🇸🇬SG_05_25@4
+  name: 🇸🇬SG_06_25@5
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   server: 139.162.5.19
   type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_06_25@5
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.68.134.9
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_07_25@6
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.68.134.9
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 🇸🇬SG_07_25@6
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8099
+  server: 139.162.41.174
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_08_25@7
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 172.99.188.99
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 142.202.48.7
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
@@ -4919,16 +4917,16 @@ proxies:
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_18_25@17
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.68.134.9
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 172.99.188.99
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_19_25@18
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 172.99.188.99
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.68.134.9
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
@@ -5017,16 +5015,37 @@ proxies:
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_32_25@31
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.68.134.9
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_33_25@32
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 172.99.188.99
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_34_25@33
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.68.134.9
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_35_25@34
   password: faBAoD54k87UJG7
-  port: 2376
-  server: 142.202.48.7
+  port: 2375
+  server: 172.99.188.99
   type: ss
 - alterId: 64
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_33_25@32
+  name: Relay_🇺🇸US-🇺🇸US_36_25@35
   network: ws
   port: 443
   server: 107.167.16.85
@@ -5038,8 +5057,83 @@ proxies:
   ws-headers:
     HOST: www.51109057.xyz
   ws-path: /path/080822272914
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_37_25@36
+  network: tcp
+  port: 52408
+  server: 129.146.46.181
+  skip-cert-verify: true
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_38_25@37
+  network: tcp
+  port: 41545
+  server: 141.147.153.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇺🇸US-🇺🇸US_39_25@38
+  network: ws
+  port: 443
+  server: api.jquery.com
+  servername: sub.yifenjichang.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    HOST: sub.yifenjichang.top
+  ws-path: /oliv.beauty:443/linkvws
+- country: 🇺🇸US
+  name: 🇺🇸US_40_25@39
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_41_25@40
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_42_25@41
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: hk03.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_43_25@42
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  port: 443
+  server: hk02.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - country: 🏁ZZ
-  name: 🏁ZZ_34_25@33
+  name: 🏁ZZ_44_25@43
   password: faf42aa0a9ad4c1e
   port: 3306
   server: 5.44.249.50
@@ -5047,7 +5141,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🏁ZZ
-  name: 🏁ZZ_35_25@34
+  name: 🏁ZZ_45_25@44
   password: 5227e84e4f026b71
   port: 3306
   server: 5.44.249.43
@@ -5055,7 +5149,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🏁ZZ
-  name: 🏁ZZ_36_25@35
+  name: 🏁ZZ_46_25@45
   password: 36fe28a331638747
   port: 3306
   server: 5.44.249.42
@@ -6935,12 +7029,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -6966,10 +7060,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -7594,12 +7698,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -7625,10 +7729,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -8257,12 +8371,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -8288,10 +8402,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -8917,12 +9041,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -8948,10 +9072,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -9577,12 +9711,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -9608,10 +9742,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -10237,12 +10381,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -10268,10 +10412,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
@@ -10914,12 +11068,12 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_24@27
   - 🇺🇸_US_美国->🇨🇳_CN_中国_5_24@29
   - _01_25@0
-  - _02_25@1
+  - 🇱🇹LT_02_25@1
   - Relay_🇷🇸RS-🇬🇧GB_03_25@2
-  - 🇸🇬SG_04_25@3
-  - 🇸🇬SG_05_25@4
-  - 🇺🇸US_06_25@5
-  - 🇺🇸US_07_25@6
+  - 🇷🇺RU_04_25@3
+  - 🇷🇺RU_05_25@4
+  - 🇸🇬SG_06_25@5
+  - 🇸🇬SG_07_25@6
   - 🇺🇸US_08_25@7
   - 🇺🇸US_09_25@8
   - 🇺🇸US_10_25@9
@@ -10945,10 +11099,20 @@ proxy-groups:
   - 🇺🇸US_30_25@29
   - 🇺🇸US_31_25@30
   - 🇺🇸US_32_25@31
-  - Relay_🇺🇸US-🇺🇸US_33_25@32
-  - 🏁ZZ_34_25@33
-  - 🏁ZZ_35_25@34
-  - 🏁ZZ_36_25@35
+  - 🇺🇸US_33_25@32
+  - 🇺🇸US_34_25@33
+  - 🇺🇸US_35_25@34
+  - Relay_🇺🇸US-🇺🇸US_36_25@35
+  - 🇺🇸US_37_25@36
+  - 🇺🇸US_38_25@37
+  - Relay_🇺🇸US-🇺🇸US_39_25@38
+  - 🇺🇸US_40_25@39
+  - 🇺🇸US_41_25@40
+  - 🇺🇸US_42_25@41
+  - 🇺🇸US_43_25@42
+  - 🏁ZZ_44_25@43
+  - 🏁ZZ_45_25@44
+  - 🏁ZZ_46_25@45
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_216_26@0
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_199_26@1
   - 🇭🇰 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_217_26@2
