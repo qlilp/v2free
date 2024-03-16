@@ -9198,20 +9198,8 @@ proxies:
   skip-cert-verify: false
   sni: jgwcc1.gaox.ml
   type: trojan
-- cipher: aes-256-cfb
-  name: _01 |19.57Mb_30@0
-  password: amazonskr05
-  port: 443
-  server: 18.136.102.74
-  type: ss
-- cipher: aes-256-cfb
-  name: _02_30@1
-  password: qwerREWQ@@
-  port: 10221
-  server: p235.panda004.net
-  type: ss
 - cipher: aes-128-gcm
-  name: _04 | 2.09Mb_30@3
+  name: _01 | 2.09Mb_30@0
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -9224,8 +9212,87 @@ proxies:
   port: 443
   server: 47.243.196.229
   type: ss
+- cipher: aes-128-gcm
+  name: _03 |10.00Mb_30@2
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.71.80
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: _05 |258.00Mb_30@4
+  name: _04 | 8.71Mb_30@3
+  password: amazonskr05
+  port: 443
+  server: 52.195.237.89
+  type: ss
+- cipher: aes-256-cfb
+  name: _05 |19.57Mb_30@4
+  password: amazonskr05
+  port: 443
+  server: 18.136.102.74
+  type: ss
+- cipher: aes-256-cfb
+  name: _06 | 2.52Mb_30@5
+  password: amazonskr05
+  port: 443
+  server: 3.34.43.24
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: _07 | 3.73Mb_30@6
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.82.85
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  obfs: http_simple
+  obfs-param: 68e7b61610.download.windowsupdate.com
+  password: ayds232112sffssd1
+  port: 2541
+  protocol: auth_aes128_sha1
+  protocol-param: 61610:G5gdyp
+  server: 231103level4.unclemanco.com
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: Pool__09 |403.00Mb_30@8
+  obfs: tls1.2_ticket_auth
+  obfs-param: cloudfront.net
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
+- cipher: rc4-md5
+  name: Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  obfs: plain
+  obfs-param: 64334105622.www.gov.hk
+  password: di15PV
+  port: 555
+  protocol: auth_aes128_md5
+  protocol-param: 105622:5EF7C3661EBC
+  server: video23.cdn.globalnetworktraffic.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: _11 |253.00Mb_30@10
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -9235,34 +9302,16 @@ proxies:
   server: 222.186.20.102
   type: ssr
 - cipher: aes-256-cfb
-  name: Pool__06 |701.00Mb_30@5
-  obfs: tls1.2_ticket_auth
-  obfs-param: cloudfront.net
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
-- cipher: rc4-md5
-  name: Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  obfs: plain
-  obfs-param: 64334105622.www.gov.hk
-  password: di15PV
-  port: 555
+  name: Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  obfs: http_simple
+  obfs-param: 68e7b61610.download.windowsupdate.com
+  password: QHPy2u
+  port: 20004
   protocol: auth_aes128_md5
-  protocol-param: 105622:5EF7C3661EBC
-  server: video23.cdn.globalnetworktraffic.com
+  protocol-param: 61610:G5gdyp
+  server: 231103level3.unclemanco.com
   type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_-🇺🇸US_11 |38.52Mb_30@10
-  port: 443
-  server: 147.135.3.12
-  type: vmess
   udp: true
-  uuid: 37072f1f-3a7f-4e2b-b417-c072a30c9e71
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -9273,7 +9322,25 @@ proxies:
     method: GET
     path:
     - /
-  name: _16 |23.21Mb_30@14
+  name: _13 |47.81Mb_30@12
+  network: http
+  port: 37153
+  server: 31.172.83.109
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: e1d38117-d0c0-4934-b124-2c671836d4ae
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: _15 |23.39Mb_30@14
   network: http
   port: 3389
   server: 139.59.24.215
@@ -9281,23 +9348,82 @@ proxies:
   type: vmess
   udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 🇫🇷FR_22_30@20
-  password: KixLvKzwjekG00rm
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _16 | 9.19Mb_30@15
+  network: ws
+  port: 80
+  server: 104.21.25.98
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: e2e25aa2-aab9-486c-9ab4-495bcbcea4d8
+  ws-opts:
+    headers:
+      Host: se2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  network: ws
+  port: 443
+  server: 188.114.99.150
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864
+  ws-opts:
+    headers:
+      Host: fi1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: _19 | 3.48Mb_30@18
+  network: ws
   port: 8080
-  server: 149.202.82.172
-  type: ss
+  server: 108.181.23.161
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_-🇺🇸US_22 |36.87Mb_30@20
+  port: 443
+  server: 147.135.3.12
+  type: vmess
+  udp: true
+  uuid: 37072f1f-3a7f-4e2b-b417-c072a30c9e71
 - cipher: aes-256-cfb
   country: 🇫🇷FR
-  name: 🇫🇷FR_23_30@21
+  name: 🇫🇷FR_26_30@24
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.159.111.208
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 🇫🇷FR_24_30@22
+  name: 🇫🇷FR_27_30@25
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 🇫🇷FR_28_30@26
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
@@ -9307,7 +9433,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇬🇧GB_26 |30.70Mb_30@24
+  name: 🇬🇧GB_29 |17.68Mb_30@27
   network: ws
   port: 443
   server: 172.99.190.109
@@ -9318,7 +9444,7 @@ proxies:
   ws-opts:
     path: linkvws
 - country: 🇮🇪IE
-  name: 🇮🇪IE_28_30@26
+  name: 🇮🇪IE_30 |70.65Mb_30@28
   password: telegram-id-privatevpns
   port: 22222
   server: 54.155.55.207
@@ -9328,7 +9454,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇷🇺RU
-  name: 🇷🇺RU_29 | 2.23Mb_30@27
+  name: 🇷🇺RU_32 | 1.48Mb_30@30
   password: DmMQUmI7pgQDnrWqLXC00L
   port: 15214
   server: 94.228.165.234
@@ -9338,7 +9464,7 @@ proxies:
   country: 🇷🇺RU
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
+  name: Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
   network: ws
   port: 80
   server: de3-vmess.sshmax.xyz
@@ -9349,76 +9475,125 @@ proxies:
     path: /vmess
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 🇸🇬SG_31 | 8.41Mb_30@29
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 🇸🇬SG_32 |11.82Mb_30@30
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 🇸🇬SG_33 | 4.15Mb_30@31
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 🇸🇬SG_34 |11.73Mb_30@32
+  name: 🇸🇬SG_34 | 4.72Mb_30@32
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 🇸🇬SG_35 |11.95Mb_30@33
+  name: 🇸🇬SG_35 | 5.26Mb_30@33
   password: cp8pRSUAyLhTfVWH
   port: 9064
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 🇸🇬SG_36 |10.06Mb_30@34
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
+  name: 🇸🇬SG_36 | 5.23Mb_30@34
+  password: fG2artUmHfNT2cX7
+  port: 9018
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 🇸🇬SG_37 |12.41Mb_30@35
+  name: 🇸🇬SG_37 | 3.66Mb_30@35
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 🇸🇬SG_38 | 2.79Mb_30@36
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 🇸🇬SG_39 | 4.97Mb_30@37
   password: ueLXVkvh4hckhErQ
   port: 9060
   server: 103.172.116.103
   type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 🇸🇬SG_40 | 4.42Mb_30@38
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.103
+  type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_38 | 8.55Mb_30@36
+  name: 🇺🇸US_41 |122.21Mb_30@39
   password: KixLvKzwjekG00rm
   port: 8080
   server: 167.88.61.175
   type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_42 | 8.60Mb_30@40
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.75.136.135
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_43 | 8.62Mb_30@41
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.75.137.164
+  type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
   group: AutoSSR
-  name: Pool_🇺🇸US_39 |127.00Mb_30@37
+  name: Pool_🇺🇸US_44 |116.00Mb_30@42
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   protocol: origin
   server: 192.240.99.182
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_45_30@43
+  network: ws
+  port: 8080
+  server: 172.64.68.208
+  servername: eu3.openxai.link
+  skip-cert-verify: true
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  ws-opts:
+    headers:
+      HOST: eu3.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  network: ws
+  port: 443
+  server: 104.24.0.11
+  servername: vip2323.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: vip2323.cfd
+    path: /linkvws
 - alterId: 64
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
+  name: Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
   network: ws
   port: 41000
   server: 154.85.0.5
@@ -9431,37 +9606,8 @@ proxies:
     headers:
       HOST: www.72281149.xyz
     path: /path/1707385668735
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_41 |21.55Mb_30@39
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: true
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_42_30@40
-  network: ws
-  port: 2052
-  server: 172.67.214.33
-  servername: onea.flha.ru
-  skip-cert-verify: true
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      HOST: onea.flha.ru
-    path: /
 - country: 🇺🇸US
-  name: 🇺🇸US_43_30@41
+  name: 🇺🇸US_50 |61.54Mb_30@47
   password: telegram-id-privatevpns
   port: 22222
   server: 16.16.10.53
@@ -9471,47 +9617,30 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇿🇦ZA
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
+  name: 🏁ZZ_53_30@50
   network: ws
-  port: 2052
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
+  port: 8080
+  server: 104.16.117.163
+  servername: eu3.openxai.link
   skip-cert-verify: true
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   ws-opts:
     headers:
-      HOST: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+      HOST: eu3.openxai.link
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  network: ws
-  port: 2086
-  server: 104.17.173.8
-  servername: us77SmSk86j.fzbqfrse.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3d840eb7-9400-4caf-a511-e4724a003ec4
-  ws-opts:
-    headers:
-      HOST: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
+  name: Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
   network: ws
   port: 443
-  server: cf.335570.xyz
+  server: cf.iepl1.me
   servername: hk01.cao.gay
   skip-cert-verify: true
   tls: true
@@ -9526,62 +9655,10 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇺🇸US_48_30@46
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  servername: tw1bQiWSE4x.fzbqfrse.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3d840eb7-9400-4caf-a511-e4724a003ec4
-  ws-opts:
-    headers:
-      HOST: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
+  name: Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   network: ws
   port: 443
-  server: 104.23.107.143
-  servername: marz.xelatek.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b1214c86-7571-4315-8cae-d610450e01de
-  ws-opts:
-    headers:
-      HOST: marz.xelatek.com
-    path: /37943/google
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇺🇦UA_52_30@50
-  network: ws
-  port: 80
-  server: 104.20.28.215
-  servername: newhk1.xn--mes53ddysu0o3gl.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      HOST: newhk1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
-  network: ws
-  port: 443
-  server: cf.iepl1.me
+  server: cf.335570.xyz
   servername: hk01.cao.gay
   skip-cert-verify: true
   tls: true
@@ -10357,41 +10434,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -11157,41 +11241,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -11961,41 +12052,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   type: select
 - name: 📲 电报信息
   proxies:
@@ -12762,41 +12860,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -13563,41 +13668,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -14364,41 +14476,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -15182,41 +15301,48 @@ proxy-groups:
   - 🇳🇱 NL_205_29@163
   - 🇸🇬 SG_43_29@164
   - 🇰🇷 韩国_29@165
-  - _01 |19.57Mb_30@0
-  - _02_30@1
-  - _04 | 2.09Mb_30@3
-  - _05 |258.00Mb_30@4
-  - Pool__06 |701.00Mb_30@5
-  - Relay_-🇨🇳CN_07 |248.00Mb_30@6
-  - Relay_-🇺🇸US_11 |38.52Mb_30@10
-  - _16 |23.21Mb_30@14
-  - 🇫🇷FR_22_30@20
-  - 🇫🇷FR_23_30@21
-  - 🇫🇷FR_24_30@22
-  - 🇬🇧GB_26 |30.70Mb_30@24
-  - 🇮🇪IE_28_30@26
-  - 🇷🇺RU_29 | 2.23Mb_30@27
-  - Relay_🇷🇺RU-🇷🇺RU_30 |64.42Mb_30@28
-  - 🇸🇬SG_31 | 8.41Mb_30@29
-  - 🇸🇬SG_32 |11.82Mb_30@30
-  - 🇸🇬SG_33 | 4.15Mb_30@31
-  - 🇸🇬SG_34 |11.73Mb_30@32
-  - 🇸🇬SG_35 |11.95Mb_30@33
-  - 🇸🇬SG_36 |10.06Mb_30@34
-  - 🇸🇬SG_37 |12.41Mb_30@35
-  - 🇺🇸US_38 | 8.55Mb_30@36
-  - Pool_🇺🇸US_39 |127.00Mb_30@37
-  - Relay_🇺🇸US-🇳🇱NL_40 |57.74Mb_30@38
-  - 🇺🇸US_41 |21.55Mb_30@39
-  - Relay_🇺🇸US-🇺🇸US_42_30@40
-  - 🇺🇸US_43_30@41
-  - Relay_🇿🇦ZA-🇺🇸US_44 |33.45Mb_30@42
-  - Relay_🏁ZZ-🇺🇸US_46 |48.57Mb_30@44
-  - Relay_🏁ZZ-🇱🇧LB_47 |10.11Mb_30@45
-  - Relay_🏁ZZ-🇺🇸US_48_30@46
-  - Relay_🏁ZZ-🇫🇮FI_51 |54.44Mb_30@49
-  - Relay_🏁ZZ-🇺🇦UA_52_30@50
-  - Relay_🏁ZZ-🇱🇧LB_54 | 2.47Mb_30@52
+  - _01 | 2.09Mb_30@0
+  - _03 |10.00Mb_30@2
+  - _04 | 8.71Mb_30@3
+  - _05 |19.57Mb_30@4
+  - _06 | 2.52Mb_30@5
+  - _07 | 3.73Mb_30@6
+  - Relay_-🇨🇳CN_08 |682.00Mb_30@7
+  - Pool__09 |403.00Mb_30@8
+  - Relay_-🇨🇳CN_10 |294.00Mb_30@9
+  - _11 |253.00Mb_30@10
+  - Relay_-🇨🇳CN_12 |751.00Mb_30@11
+  - _13 |47.81Mb_30@12
+  - _15 |23.39Mb_30@14
+  - _16 | 9.19Mb_30@15
+  - Relay_-🇷🇺RU_17 | 9.35Mb_30@16
+  - _19 | 3.48Mb_30@18
+  - Relay_-🇺🇸US_22 |36.87Mb_30@20
+  - 🇫🇷FR_26_30@24
+  - 🇫🇷FR_27_30@25
+  - 🇫🇷FR_28_30@26
+  - 🇬🇧GB_29 |17.68Mb_30@27
+  - 🇮🇪IE_30 |70.65Mb_30@28
+  - 🇷🇺RU_32 | 1.48Mb_30@30
+  - Relay_🇷🇺RU-🇷🇺RU_33 | 4.47Mb_30@31
+  - 🇸🇬SG_34 | 4.72Mb_30@32
+  - 🇸🇬SG_35 | 5.26Mb_30@33
+  - 🇸🇬SG_36 | 5.23Mb_30@34
+  - 🇸🇬SG_37 | 3.66Mb_30@35
+  - 🇸🇬SG_38 | 2.79Mb_30@36
+  - 🇸🇬SG_39 | 4.97Mb_30@37
+  - 🇸🇬SG_40 | 4.42Mb_30@38
+  - 🇺🇸US_41 |122.21Mb_30@39
+  - 🇺🇸US_42 | 8.60Mb_30@40
+  - 🇺🇸US_43 | 8.62Mb_30@41
+  - Pool_🇺🇸US_44 |116.00Mb_30@42
+  - 🇺🇸US_45_30@43
+  - Relay_🇺🇸US-🇺🇸US_46 |49.32Mb_30@44
+  - Relay_🇺🇸US-🇳🇱NL_47 |33.92Mb_30@45
+  - 🇺🇸US_50 |61.54Mb_30@47
+  - 🏁ZZ_53_30@50
+  - Relay_🏁ZZ-🇱🇧LB_55 | 8.34Mb_30@52
+  - Relay_🏁ZZ-🇱🇧LB_56 |10.33Mb_30@53
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
