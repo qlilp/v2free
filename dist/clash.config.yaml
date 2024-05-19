@@ -2202,56 +2202,30 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: Relay_-🇺🇸US_01_29@0
-  password: ef63a24e-9dfc-44c9-995a-95c0baac440b
-  port: 10001
-  server: hk01.mmyjiedian.com
+- cipher: aes-256-cfb
+  name: _01 | 0.25Mb_29@0
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 103.172.116.94
   type: ss
-- cipher: aes-128-gcm
-  name: Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  password: 20a14886-db45-428a-a4d3-54b3573acb98
-  port: 12390
-  server: 4208.ens3.buzz
+- cipher: aes-256-cfb
+  name: _02 | 0.72Mb_29@1
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 103.172.116.94
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: _03_29@2
-  password: 18ddf599-97e2-4aa7-b307-d7439699fa5d
-  port: 26743
-  server: idc.fengqun.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: _04_29@3
-  password: 18ddf599-97e2-4aa7-b307-d7439699fa5d
-  port: 24456
-  server: idc.fengqun.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: Relay_-🇸🇬SG_05_29@4
-  password: ef63a24e-9dfc-44c9-995a-95c0baac440b
-  port: 20010
-  server: sg10.mmyjiedian.com
-  type: ss
-- cipher: aes-128-gcm
-  name: Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  password: 20a14886-db45-428a-a4d3-54b3573acb98
-  port: 43873
-  server: e7a0.ens3.buzz
-  type: ss
-- cipher: aes-128-gcm
-  name: Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  password: 20a14886-db45-428a-a4d3-54b3573acb98
-  port: 24803
-  server: 1e23.ens3.buzz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: Relay_-🇺🇸US_09_29@7
-  password: 18ddf599-97e2-4aa7-b307-d7439699fa5d
-  port: 10065
-  server: idc.fengqun.xyz
-  type: ss
+- cipher: aes-256-cfb
+  name: _03 |229.00Mb_29@2
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41122
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.24
+  type: ssr
 - cipher: rc4-md5
-  name: Relay_-🇨🇳CN_16 |301.00Mb_29@8
+  name: Relay_-🇨🇳CN_05 |309.00Mb_29@3
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -2264,7 +2238,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _18 |38.66Mb_29@10
+  name: _07 |35.17Mb_29@5
   network: ws
   port: 443
   server: 46.29.219.43
@@ -2279,7 +2253,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: Pool__19 |50.03Mb_29@11
+  name: Pool__08 |45.11Mb_29@6
   network: ws
   port: 443
   server: 85.206.165.35
@@ -2290,54 +2264,45 @@ proxies:
     headers:
       Host: www.83322971.xyz
     path: /path/173403330828
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  network: tcp
-  port: 50582
-  server: 120.238.122.248
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_-🇺🇸US_21 |71.55Mb_29@13
-  network: ws
-  port: 443
-  server: 170.178.190.139
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.94054702.xyz
-    path: /path/182320181512
+- country: 🇨🇦CA
+  name: 🇨🇦CA_09 | 2.33Mb_29@7
+  password: ahnnp5J6wRsw
+  port: 14765
+  server: 3.97.16.122
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
-  name: Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
+  name: Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
   password: 99301d55-a41f-4919-986b-1435996533aa
   port: 20003
   server: 120.238.122.208
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20003
+  server: deepf.hjkdsak2.com
+  type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 🇫🇷FR_26_29@17
+  name: 🇫🇷FR_15_29@12
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 🇫🇷FR_27_29@18
+  name: 🇫🇷FR_16_29@13
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
   type: ss
 - country: 🇫🇷FR
-  name: 🇫🇷FR_28_29@19
+  name: 🇫🇷FR_17_29@14
   password: telegram-id-privatevpns
   port: 22222
   server: 35.181.22.157
@@ -2347,10 +2312,25 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK_18_29@15
+  network: ws
+  port: 12909
+  server: 210.3.159.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   country: 🇰🇷KR
   h2-opts: {}
   http-opts: {}
-  name: 🇰🇷KR_29 |560.79Mb_29@20
+  name: 🇰🇷KR_20 |553.87Mb_29@16
   network: tcp
   port: 10001
   server: 103.214.68.57
@@ -2363,7 +2343,7 @@ proxies:
   country: 🇷🇺RU
   h2-opts: {}
   http-opts: {}
-  name: 🇷🇺RU_31 |50.89Mb_29@22
+  name: 🇷🇺RU_21 |49.06Mb_29@17
   network: tcp
   port: 47555
   server: 46.29.166.237
@@ -2371,7 +2351,7 @@ proxies:
   type: vmess
   uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
 - country: 🇷🇺RU
-  name: Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
+  name: Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
   password: 697c11f5-4d7d-46f9-9199-1113ac94670b
   port: 443
   server: hk-full.privateip.net
@@ -2380,56 +2360,56 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_33 | 8.70Mb_29@24
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_35 | 8.51Mb_29@26
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_36 | 8.62Mb_29@27
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_37 | 8.38Mb_29@28
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_38 | 8.51Mb_29@29
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_39 | 8.75Mb_29@30
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.110.1.201
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_40 |222.92Mb_29@31
+  name: 🇺🇸US_23 | 8.67Mb_29@19
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 38.86.135.117
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_41 | 8.70Mb_29@32
+  name: 🇺🇸US_25 | 8.70Mb_29@21
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_26 | 8.75Mb_29@22
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.110.1.201
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_27 | 8.56Mb_29@23
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_28 |175.73Mb_29@24
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_29 | 8.61Mb_29@25
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_30 | 8.59Mb_29@26
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_31 | 8.69Mb_29@27
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
@@ -2437,7 +2417,7 @@ proxies:
 - cipher: aes-256-cfb
   country: 🇺🇸US
   group: AutoSSR
-  name: Pool_🇺🇸US_42 |121.00Mb_29@33
+  name: Pool_🇺🇸US_32 |134.00Mb_29@28
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
@@ -2449,7 +2429,22 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_45 | 5.93Mb_29@36
+  name: 🇺🇸US_33 |10.16Mb_29@29
+  network: ws
+  port: 8443
+  server: atlasnet1.myatlasnet.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 63e54742-a244-4bb0-c9cb-17a545f4ca3f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_35 |13.09Mb_29@30
   network: tcp
   port: 1069
   server: 152.69.197.60
@@ -2461,21 +2456,24 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_48 |26.09Mb_29@38
+  name: Relay_🇺🇸US-🇹🇼TW_39_29@33
   network: ws
-  port: 50542
-  server: 38.207.169.136
+  port: 8080
+  server: 172.67.185.79
+  servername: oiictw.yydsii.com
   skip-cert-verify: true
   type: vmess
-  uuid: a9d64766-2ad6-44a0-a4c0-e1e760b92c3b
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
-    path: /a9d64766
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇺🇸US_52_29@42
+  name: Relay_🏁ZZ-🇺🇸US_43_29@37
   network: ws
   port: 2052
   server: cfcdn3.sanfencdn9.com
@@ -2739,38 +2737,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -3022,38 +3017,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3309,38 +3301,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3593,38 +3582,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -3877,38 +3863,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -4161,38 +4144,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4462,38 +4442,35 @@ proxy-groups:
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】8_28@15
   - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29_28@16
   - 🇨🇳 中国【付费推荐：https://jdyvip.link/】3_28@17
-  - Relay_-🇺🇸US_01_29@0
-  - Relay_-🇺🇸US_02 | 6.03Mb_29@1
-  - _03_29@2
-  - _04_29@3
-  - Relay_-🇸🇬SG_05_29@4
-  - Relay_-🇺🇸US_06 | 0.61Mb_29@5
-  - Relay_-🇸🇬SG_07 | 3.97Mb_29@6
-  - Relay_-🇺🇸US_09_29@7
-  - Relay_-🇨🇳CN_16 |301.00Mb_29@8
-  - _18 |38.66Mb_29@10
-  - Pool__19 |50.03Mb_29@11
-  - Relay_-🇺🇸US_20 | 7.16Mb_29@12
-  - Relay_-🇺🇸US_21 |71.55Mb_29@13
-  - Relay_🇨🇳CN-🇸🇪SE_22 | 0.74Mb_29@14
-  - 🇫🇷FR_26_29@17
-  - 🇫🇷FR_27_29@18
-  - 🇫🇷FR_28_29@19
-  - 🇰🇷KR_29 |560.79Mb_29@20
-  - 🇷🇺RU_31 |50.89Mb_29@22
-  - Relay_🇷🇺RU-🇷🇺RU_32 | 3.28Mb_29@23
-  - 🇺🇸US_33 | 8.70Mb_29@24
-  - 🇺🇸US_35 | 8.51Mb_29@26
-  - 🇺🇸US_36 | 8.62Mb_29@27
-  - 🇺🇸US_37 | 8.38Mb_29@28
-  - 🇺🇸US_38 | 8.51Mb_29@29
-  - 🇺🇸US_39 | 8.75Mb_29@30
-  - 🇺🇸US_40 |222.92Mb_29@31
-  - 🇺🇸US_41 | 8.70Mb_29@32
-  - Pool_🇺🇸US_42 |121.00Mb_29@33
-  - 🇺🇸US_45 | 5.93Mb_29@36
-  - 🇺🇸US_48 |26.09Mb_29@38
-  - Relay_🏁ZZ-🇺🇸US_52_29@42
+  - _01 | 0.25Mb_29@0
+  - _02 | 0.72Mb_29@1
+  - _03 |229.00Mb_29@2
+  - Relay_-🇨🇳CN_05 |309.00Mb_29@3
+  - _07 |35.17Mb_29@5
+  - Pool__08 |45.11Mb_29@6
+  - 🇨🇦CA_09 | 2.33Mb_29@7
+  - Relay_🇨🇳CN-🇸🇪SE_10 | 0.68Mb_29@8
+  - Relay_🇨🇳CN-🇸🇪SE_11_29@9
+  - 🇫🇷FR_15_29@12
+  - 🇫🇷FR_16_29@13
+  - 🇫🇷FR_17_29@14
+  - 🇭🇰HK_18_29@15
+  - 🇰🇷KR_20 |553.87Mb_29@16
+  - 🇷🇺RU_21 |49.06Mb_29@17
+  - Relay_🇷🇺RU-🇷🇺RU_22 | 1.89Mb_29@18
+  - 🇺🇸US_23 | 8.67Mb_29@19
+  - 🇺🇸US_25 | 8.70Mb_29@21
+  - 🇺🇸US_26 | 8.75Mb_29@22
+  - 🇺🇸US_27 | 8.56Mb_29@23
+  - 🇺🇸US_28 |175.73Mb_29@24
+  - 🇺🇸US_29 | 8.61Mb_29@25
+  - 🇺🇸US_30 | 8.59Mb_29@26
+  - 🇺🇸US_31 | 8.69Mb_29@27
+  - Pool_🇺🇸US_32 |134.00Mb_29@28
+  - 🇺🇸US_33 |10.16Mb_29@29
+  - 🇺🇸US_35 |13.09Mb_29@30
+  - Relay_🇺🇸US-🇹🇼TW_39_29@33
+  - Relay_🏁ZZ-🇺🇸US_43_29@37
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
