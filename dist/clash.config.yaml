@@ -3238,18 +3238,19 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   name: _01_11@0
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41228
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.102
-  type: ssr
+  password: HuTaoCloud
+  plugin: obfs
+  plugin-opts:
+    host: 36a1a32505.microsoft.com
+    mode: http
+  port: 12556
+  server: cm1-tw.hutaonode3.top
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: _02 |272.00Mb_11@1
+  name: _02 |298.00Mb_11@1
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -3258,9 +3259,19 @@ proxies:
   protocol-param: 165400:Hr2aXO
   server: 222.186.20.24
   type: ssr
+- cipher: aes-256-cfb
+  name: _03 |391.00Mb_11@2
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41228
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.102
+  type: ssr
 - cipher: aes-256-gcm
   country: 🇨🇦CA
-  name: 🇨🇦CA_03 |316.51Mb_11@2
+  name: 🇨🇦CA_04 |315.26Mb_11@3
   password: lGqs95QkFHo2NV
   port: 5498
   server: 38.111.114.161
@@ -3270,42 +3281,56 @@ proxies:
   country: 🇨🇦CA
   h2-opts: {}
   http-opts: {}
-  name: 🇨🇦CA_04 |27.90Mb_11@3
+  name: 🇨🇦CA_06 |27.90Mb_11@5
   port: 17163
   server: 108.181.200.220
   skip-cert-verify: true
   type: vmess
   uuid: d54814a1-7a93-45f8-9117-db317a25d100
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  name: 🇩🇪DE_09 | 1.29Mb_11@8
+  password: 1n89nFNTdzc3mEOtkNWA9B
+  port: 23166
+  server: 37.1.192.68
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  name: 🇩🇪DE_10 |43.28Mb_11@9
+  password: I53uJsZc6dzTBYDEqg1a30Bh1hAd4HQzgpwCVdpzKwfF2ZUh
+  port: 51348
+  server: 168.119.57.171
+  type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 🇫🇷FR_07_11@5
+  name: 🇫🇷FR_11_11@10
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
   type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 🇫🇷FR_08_11@6
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇫🇷FR
-  name: 🇫🇷FR_09_11@7
+  name: 🇫🇷FR_12_11@11
   password: G!yBwPWH3Vao
   port: 805
   server: 51.178.87.37
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇫🇷FR
-  name: 🇫🇷FR_10_11@8
+  name: 🇫🇷FR_13_11@12
   password: G!yBwPWH3Vao
   port: 810
   server: 51.178.87.37
   type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 🇫🇷FR_14_11@13
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
 - country: 🇫🇷FR
-  name: 🇫🇷FR_11_11@9
+  name: 🇫🇷FR_15_11@14
   password: telegram-id-directvpn
   port: 22222
   server: 15.188.101.179
@@ -3315,17 +3340,24 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇪IE
-  name: 🇮🇪IE_12 |46.58Mb_11@10
+  name: 🇮🇪IE_16 |46.48Mb_11@15
   password: lZJqAB32wR97hbobEBmWV0
   port: 46541
   server: 13.74.171.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇹IT
+  name: 🇮🇹IT_17 | 2.57Mb_11@16
+  password: UtwrmW77eTflZNdkOBbY7m
+  port: 50669
+  server: 91.201.67.78
   type: ss
 - alterId: 0
   cipher: auto
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
+  name: Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
   network: ws
   port: 80
   server: 45.131.208.228
@@ -3337,297 +3369,311 @@ proxies:
     headers:
       HOST: dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz.
     path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇺🇦UA
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇦UA_20 | 2.13Mb_11@19
+  network: ws
+  port: 2095
+  server: 95.164.44.140
+  skip-cert-verify: true
+  type: vmess
+  uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910
+  ws-opts:
+    path: /vmess
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_16 | 3.92Mb_11@14
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_17 | 8.59Mb_11@15
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.157.40.102
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_18 | 2.43Mb_11@16
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_19 | 2.39Mb_11@17
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_20 | 8.46Mb_11@18
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_21 | 8.60Mb_11@19
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_22 | 8.62Mb_11@20
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 38.114.114.208
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_23 | 2.31Mb_11@21
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_24 | 8.58Mb_11@22
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_25 | 8.61Mb_11@23
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.114.114.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_26 | 8.30Mb_11@24
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_27 | 8.75Mb_11@25
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.110.1.105
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_28 | 8.31Mb_11@26
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_29 | 8.61Mb_11@27
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_30 | 8.60Mb_11@28
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_31 | 8.30Mb_11@29
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 23.157.40.89
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_32 | 8.30Mb_11@30
+  name: 🇺🇸US_21 | 8.27Mb_11@20
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 23.157.40.113
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_33 | 2.30Mb_11@31
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_34 | 2.38Mb_11@32
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 15.204.87.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_35 | 8.60Mb_11@33
+  name: 🇺🇸US_22 | 8.36Mb_11@21
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 23.157.40.10
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_36 | 8.58Mb_11@34
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 23.157.40.115
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_37 | 8.27Mb_11@35
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_38 | 8.31Mb_11@36
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-128-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US_39 |23.85Mb_11@37
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_40 | 8.60Mb_11@38
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.157.40.102
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_41 | 3.89Mb_11@39
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_43 | 8.60Mb_11@41
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_44 |297.84Mb_11@42
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.97
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_45 | 3.75Mb_11@43
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_46 |293.38Mb_11@44
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_47 |300.31Mb_11@45
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_48 |215.11Mb_11@46
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.86.135.31
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_49 | 8.30Mb_11@47
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 23.157.40.10
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_50 | 4.44Mb_11@48
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_51 | 8.60Mb_11@49
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 23.157.40.113
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_52 | 6.68Mb_11@50
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.131
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_53 | 8.31Mb_11@51
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_54 | 8.58Mb_11@52
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_55 | 8.60Mb_11@53
+  name: 🇺🇸US_23 | 8.39Mb_11@22
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 23.157.40.113
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_56 |163.08Mb_11@54
+  name: 🇺🇸US_24 | 8.29Mb_11@23
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_25 | 8.68Mb_11@24
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 38.86.135.31
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_26 | 2.15Mb_11@25
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_27 | 8.31Mb_11@26
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_28 | 8.38Mb_11@27
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_29 | 8.41Mb_11@28
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_30 | 8.30Mb_11@29
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_31 | 6.58Mb_11@30
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 15.204.87.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_32 | 8.38Mb_11@31
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_33 | 8.36Mb_11@32
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_34 | 8.36Mb_11@33
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_35 | 2.27Mb_11@34
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_36 | 8.47Mb_11@35
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.114.114.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_37 | 6.24Mb_11@36
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 15.204.87.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_38 | 6.59Mb_11@37
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 15.204.87.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_39 | 5.66Mb_11@38
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 15.204.87.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_40 | 6.17Mb_11@39
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 15.204.87.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_41 | 2.09Mb_11@40
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_42 | 2.17Mb_11@41
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_43 | 8.72Mb_11@42
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_44 | 8.70Mb_11@43
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_45 | 5.49Mb_11@44
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  port: 8080
+  server: 45.158.171.131
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_46 | 8.27Mb_11@45
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_47 | 8.40Mb_11@46
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_48 | 8.28Mb_11@47
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 23.157.40.89
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_49 | 8.33Mb_11@48
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 23.157.40.115
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_50 | 8.27Mb_11@49
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_51 | 8.39Mb_11@50
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_52 | 8.28Mb_11@51
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 23.157.40.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_53 | 8.81Mb_11@52
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.110.1.105
+  type: ss
+- cipher: aes-128-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_55 |21.72Mb_11@54
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_56 | 8.37Mb_11@55
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.157.40.102
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_57 | 8.39Mb_11@56
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 23.157.40.113
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_58 | 8.57Mb_11@57
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 38.114.114.208
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_59 | 8.62Mb_11@58
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.121.43.97
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_60 | 8.68Mb_11@59
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.86.135.31
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_61 | 8.69Mb_11@60
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 38.86.135.31
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_57 |215.33Mb_11@55
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.31
+  name: 🇺🇸US_62 | 8.38Mb_11@61
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.157.40.102
   type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
   group: AutoSSR
-  name: Pool_🇺🇸US_58 |128.00Mb_11@56
+  name: Pool_🇺🇸US_63 |121.00Mb_11@62
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
@@ -3639,24 +3685,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇹🇼TW_65_11@63
-  network: ws
-  port: 8080
-  server: 172.67.169.104
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
+  name: Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
   network: ws
   port: 2086
   server: 172.64.167.5
@@ -3673,121 +3702,82 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇹🇼TW_78_11@76
-  network: ws
-  port: 8080
-  server: 172.67.199.211
-  servername: oiictw.yydsii.com
+  name: 🇺🇸US_78 |17.34Mb_11@77
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
   skip-cert-verify: true
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - cipher: aes-256-gcm
   country: 🏁ZZ
-  name: 🏁ZZ_83 | 8.71Mb_11@81
-  password: Y6R9pAtvxxzmGC
-  port: 9090
+  name: 🏁ZZ_88 | 8.68Mb_11@87
+  password: pKEW8JPByTVTLtM
+  port: 443
   server: 23.162.200.181
   type: ss
 - cipher: aes-256-gcm
   country: 🏁ZZ
-  name: 🏁ZZ_84 | 8.68Mb_11@82
+  name: 🏁ZZ_90 | 8.68Mb_11@89
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 23.162.200.181
   type: ss
 - cipher: aes-256-gcm
   country: 🏁ZZ
-  name: 🏁ZZ_85 | 8.70Mb_11@83
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 23.162.200.154
-  type: ss
-- cipher: aes-256-gcm
-  country: 🏁ZZ
-  name: 🏁ZZ_86 | 8.70Mb_11@84
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🏁ZZ
-  name: 🏁ZZ_87 | 8.70Mb_11@85
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🏁ZZ
-  name: 🏁ZZ_88 | 8.70Mb_11@86
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🏁ZZ
-  name: 🏁ZZ_89 | 8.69Mb_11@87
+  name: 🏁ZZ_91 | 8.66Mb_11@90
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 23.162.200.181
   type: ss
 - cipher: aes-256-gcm
   country: 🏁ZZ
-  name: 🏁ZZ_90 | 8.69Mb_11@88
+  name: 🏁ZZ_92 | 8.67Mb_11@91
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🏁ZZ
+  name: 🏁ZZ_93 | 8.68Mb_11@92
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🏁ZZ
+  name: 🏁ZZ_94 | 8.65Mb_11@93
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🏁ZZ
+  name: 🏁ZZ_95 | 8.69Mb_11@94
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🏁ZZ
+  name: 🏁ZZ_96 | 8.67Mb_11@95
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 23.162.200.181
   type: ss
 - cipher: aes-256-gcm
   country: 🏁ZZ
-  name: 🏁ZZ_91 | 8.70Mb_11@89
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 23.162.200.181
+  name: 🏁ZZ_97 | 8.68Mb_11@96
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 23.162.200.154
   type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 🏁ZZ_93 |16.75Mb_11@91
-  network: ws
-  port: 80
-  server: 104.17.148.128
-  servername: 127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2d14e84b-226b-412a-9a3c-ffce70b02bdf
-  ws-opts:
-    headers:
-      HOST: 127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  servername: jpafzyhfsg3.yofnhkfc.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d9e68c12-ae26-4c90-9608-0ad10c7509c1
-  ws-opts:
-    headers:
-      HOST: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
+  name: Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
   network: ws
   port: 2082
   server: 104.17.147.22
@@ -3804,53 +3794,86 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
+  name: Relay_🏁ZZ-🇺🇸US_113_11@111
   network: ws
-  port: 443
-  server: 104.21.69.44
-  servername: a1.wolf-shop.ir
+  port: 2095
+  server: 104.19.45.205
+  servername: onea.flha.ru
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 7b308755-1135-4fed-828f-8e48ca1603ad
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      HOST: a1.wolf-shop.ir
-    path: /6mHwql1HSSV5FOZe0UV1BYvuQ
+      HOST: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇹🇼TW_138_11@134
+  name: Relay_🏁ZZ-🇺🇸US_114_11@112
   network: ws
-  port: 8080
-  server: 104.19.47.136
-  servername: oiictw.yydsii.com
+  port: 2095
+  server: 104.19.45.202
+  servername: onea.flha.ru
   skip-cert-verify: true
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+      HOST: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇹🇼TW_141_11@137
+  name: Relay_🏁ZZ-🇺🇸US_117_11@115
   network: ws
-  port: 8080
-  server: 104.19.47.239
-  servername: oiictw.yydsii.com
+  port: 2095
+  server: 104.19.45.2
+  servername: onea.flha.ru
   skip-cert-verify: true
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+      HOST: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🏁ZZ-🇺🇸US_127_11@125
+  network: ws
+  port: 2095
+  server: 104.19.45.196
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  servername: jpafzyhfsg3.yofnhkfc.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d9e68c12-ae26-4c90-9608-0ad10c7509c1
+  ws-opts:
+    headers:
+      HOST: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -4167,76 +4190,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -4552,76 +4579,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4941,76 +4972,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   type: select
 - name: 📲 电报信息
   proxies:
@@ -5327,76 +5362,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -5713,76 +5752,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -6099,76 +6142,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -6502,76 +6549,80 @@ proxy-groups:
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】252_10@163
   - 🇺🇲 美国【付费推荐：https://a0a.xyz】160_10@165
   - _01_11@0
-  - _02 |272.00Mb_11@1
-  - 🇨🇦CA_03 |316.51Mb_11@2
-  - 🇨🇦CA_04 |27.90Mb_11@3
-  - 🇫🇷FR_07_11@5
-  - 🇫🇷FR_08_11@6
-  - 🇫🇷FR_09_11@7
-  - 🇫🇷FR_10_11@8
-  - 🇫🇷FR_11_11@9
-  - 🇮🇪IE_12 |46.58Mb_11@10
-  - Relay_🇳🇱NL-🇺🇸US_14 |54.18Mb_11@12
-  - 🇺🇸US_16 | 3.92Mb_11@14
-  - 🇺🇸US_17 | 8.59Mb_11@15
-  - 🇺🇸US_18 | 2.43Mb_11@16
-  - 🇺🇸US_19 | 2.39Mb_11@17
-  - 🇺🇸US_20 | 8.46Mb_11@18
-  - 🇺🇸US_21 | 8.60Mb_11@19
-  - 🇺🇸US_22 | 8.62Mb_11@20
-  - 🇺🇸US_23 | 2.31Mb_11@21
-  - 🇺🇸US_24 | 8.58Mb_11@22
-  - 🇺🇸US_25 | 8.61Mb_11@23
-  - 🇺🇸US_26 | 8.30Mb_11@24
-  - 🇺🇸US_27 | 8.75Mb_11@25
-  - 🇺🇸US_28 | 8.31Mb_11@26
-  - 🇺🇸US_29 | 8.61Mb_11@27
-  - 🇺🇸US_30 | 8.60Mb_11@28
-  - 🇺🇸US_31 | 8.30Mb_11@29
-  - 🇺🇸US_32 | 8.30Mb_11@30
-  - 🇺🇸US_33 | 2.30Mb_11@31
-  - 🇺🇸US_34 | 2.38Mb_11@32
-  - 🇺🇸US_35 | 8.60Mb_11@33
-  - 🇺🇸US_36 | 8.58Mb_11@34
-  - 🇺🇸US_37 | 8.27Mb_11@35
-  - 🇺🇸US_38 | 8.31Mb_11@36
-  - 🇺🇸US_39 |23.85Mb_11@37
-  - 🇺🇸US_40 | 8.60Mb_11@38
-  - 🇺🇸US_41 | 3.89Mb_11@39
-  - 🇺🇸US_43 | 8.60Mb_11@41
-  - 🇺🇸US_44 |297.84Mb_11@42
-  - 🇺🇸US_45 | 3.75Mb_11@43
-  - 🇺🇸US_46 |293.38Mb_11@44
-  - 🇺🇸US_47 |300.31Mb_11@45
-  - 🇺🇸US_48 |215.11Mb_11@46
-  - 🇺🇸US_49 | 8.30Mb_11@47
-  - 🇺🇸US_50 | 4.44Mb_11@48
-  - 🇺🇸US_51 | 8.60Mb_11@49
-  - 🇺🇸US_52 | 6.68Mb_11@50
-  - 🇺🇸US_53 | 8.31Mb_11@51
-  - 🇺🇸US_54 | 8.58Mb_11@52
-  - 🇺🇸US_55 | 8.60Mb_11@53
-  - 🇺🇸US_56 |163.08Mb_11@54
-  - 🇺🇸US_57 |215.33Mb_11@55
-  - Pool_🇺🇸US_58 |128.00Mb_11@56
-  - Relay_🇺🇸US-🇹🇼TW_65_11@63
-  - Relay_🇺🇸US-🇨🇦CA_69 | 2.44Mb_11@67
-  - Relay_🇺🇸US-🇹🇼TW_78_11@76
-  - 🏁ZZ_83 | 8.71Mb_11@81
-  - 🏁ZZ_84 | 8.68Mb_11@82
-  - 🏁ZZ_85 | 8.70Mb_11@83
-  - 🏁ZZ_86 | 8.70Mb_11@84
-  - 🏁ZZ_87 | 8.70Mb_11@85
-  - 🏁ZZ_88 | 8.70Mb_11@86
-  - 🏁ZZ_89 | 8.69Mb_11@87
-  - 🏁ZZ_90 | 8.69Mb_11@88
-  - 🏁ZZ_91 | 8.70Mb_11@89
-  - 🏁ZZ_93 |16.75Mb_11@91
-  - Relay_🏁ZZ-🇸🇬SG_102 | 2.73Mb_11@99
-  - Relay_🏁ZZ-🇩🇪DE_109 | 3.52Mb_11@106
-  - Relay_🏁ZZ-🇺🇸US_134 |14.03Mb_11@131
-  - Relay_🏁ZZ-🇹🇼TW_138_11@134
-  - Relay_🏁ZZ-🇹🇼TW_141_11@137
+  - _02 |298.00Mb_11@1
+  - _03 |391.00Mb_11@2
+  - 🇨🇦CA_04 |315.26Mb_11@3
+  - 🇨🇦CA_06 |27.90Mb_11@5
+  - 🇩🇪DE_09 | 1.29Mb_11@8
+  - 🇩🇪DE_10 |43.28Mb_11@9
+  - 🇫🇷FR_11_11@10
+  - 🇫🇷FR_12_11@11
+  - 🇫🇷FR_13_11@12
+  - 🇫🇷FR_14_11@13
+  - 🇫🇷FR_15_11@14
+  - 🇮🇪IE_16 |46.48Mb_11@15
+  - 🇮🇹IT_17 | 2.57Mb_11@16
+  - Relay_🇳🇱NL-🇺🇸US_19 |54.18Mb_11@18
+  - 🇺🇦UA_20 | 2.13Mb_11@19
+  - 🇺🇸US_21 | 8.27Mb_11@20
+  - 🇺🇸US_22 | 8.36Mb_11@21
+  - 🇺🇸US_23 | 8.39Mb_11@22
+  - 🇺🇸US_24 | 8.29Mb_11@23
+  - 🇺🇸US_25 | 8.68Mb_11@24
+  - 🇺🇸US_26 | 2.15Mb_11@25
+  - 🇺🇸US_27 | 8.31Mb_11@26
+  - 🇺🇸US_28 | 8.38Mb_11@27
+  - 🇺🇸US_29 | 8.41Mb_11@28
+  - 🇺🇸US_30 | 8.30Mb_11@29
+  - 🇺🇸US_31 | 6.58Mb_11@30
+  - 🇺🇸US_32 | 8.38Mb_11@31
+  - 🇺🇸US_33 | 8.36Mb_11@32
+  - 🇺🇸US_34 | 8.36Mb_11@33
+  - 🇺🇸US_35 | 2.27Mb_11@34
+  - 🇺🇸US_36 | 8.47Mb_11@35
+  - 🇺🇸US_37 | 6.24Mb_11@36
+  - 🇺🇸US_38 | 6.59Mb_11@37
+  - 🇺🇸US_39 | 5.66Mb_11@38
+  - 🇺🇸US_40 | 6.17Mb_11@39
+  - 🇺🇸US_41 | 2.09Mb_11@40
+  - 🇺🇸US_42 | 2.17Mb_11@41
+  - 🇺🇸US_43 | 8.72Mb_11@42
+  - 🇺🇸US_44 | 8.70Mb_11@43
+  - 🇺🇸US_45 | 5.49Mb_11@44
+  - 🇺🇸US_46 | 8.27Mb_11@45
+  - 🇺🇸US_47 | 8.40Mb_11@46
+  - 🇺🇸US_48 | 8.28Mb_11@47
+  - 🇺🇸US_49 | 8.33Mb_11@48
+  - 🇺🇸US_50 | 8.27Mb_11@49
+  - 🇺🇸US_51 | 8.39Mb_11@50
+  - 🇺🇸US_52 | 8.28Mb_11@51
+  - 🇺🇸US_53 | 8.81Mb_11@52
+  - 🇺🇸US_55 |21.72Mb_11@54
+  - 🇺🇸US_56 | 8.37Mb_11@55
+  - 🇺🇸US_57 | 8.39Mb_11@56
+  - 🇺🇸US_58 | 8.57Mb_11@57
+  - 🇺🇸US_59 | 8.62Mb_11@58
+  - 🇺🇸US_60 | 8.68Mb_11@59
+  - 🇺🇸US_61 | 8.69Mb_11@60
+  - 🇺🇸US_62 | 8.38Mb_11@61
+  - Pool_🇺🇸US_63 |121.00Mb_11@62
+  - Relay_🇺🇸US-🇨🇦CA_65 |25.84Mb_11@64
+  - 🇺🇸US_78 |17.34Mb_11@77
+  - 🏁ZZ_88 | 8.68Mb_11@87
+  - 🏁ZZ_90 | 8.68Mb_11@89
+  - 🏁ZZ_91 | 8.66Mb_11@90
+  - 🏁ZZ_92 | 8.67Mb_11@91
+  - 🏁ZZ_93 | 8.68Mb_11@92
+  - 🏁ZZ_94 | 8.65Mb_11@93
+  - 🏁ZZ_95 | 8.69Mb_11@94
+  - 🏁ZZ_96 | 8.67Mb_11@95
+  - 🏁ZZ_97 | 8.68Mb_11@96
+  - Relay_🏁ZZ-🇩🇪DE_112 |13.99Mb_11@110
+  - Relay_🏁ZZ-🇺🇸US_113_11@111
+  - Relay_🏁ZZ-🇺🇸US_114_11@112
+  - Relay_🏁ZZ-🇺🇸US_117_11@115
+  - Relay_🏁ZZ-🇺🇸US_127_11@125
+  - Relay_🏁ZZ-🇸🇬SG_151 | 2.70Mb_11@149
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
