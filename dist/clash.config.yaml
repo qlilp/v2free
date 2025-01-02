@@ -3772,21 +3772,11 @@ proxies:
   port: 443
   server: 127.0.0.1
   type: ss
-- cipher: aes-256-cfb
-  name: _01 |373.00Mb_7@0
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41228
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.102
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: _02 |30.91Mb_7@1
+  name: _01 |43.30Mb_7@0
   network: ws
   port: 443
   server: 57.129.24.125
@@ -3803,7 +3793,7 @@ proxies:
   country: 🇨🇦CA
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
+  name: Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
   network: ws
   port: 443
   server: denc36.xtooltech.cfd
@@ -3816,49 +3806,90 @@ proxies:
     headers:
       HOST: adenc36v.xtooltech.cfd
     path: /linkws
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 🇫🇷FR_15_7@12
-  password: KixLvKzwjekG00rm
+- alterId: 0
+  cipher: auto
+  country: 🇨🇾CY
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  network: ws
+  port: 443
+  server: 195.85.59.161
+  servername: kr.cfyyds.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  ws-opts:
+    headers:
+      HOST: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- cipher: rc4-md5
+  country: 🇩🇪DE
+  name: 🇩🇪DE_13 |41.42Mb_7@10
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 149.202.82.172
+  server: 193.108.119.230
+  type: ss
+- country: 🇩🇪DE
+  name: 🇩🇪DE_16_7@13
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.72.192.229
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇮FI
+  name: 🇫🇮FI_17 |13.20Mb_7@14
+  password: X7eoEBrARWsBUiVfchVEdH
+  port: 443
+  server: 185.77.217.121
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 🇫🇷FR_16_7@13
+  name: 🇫🇷FR_18_7@15
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
   type: ss
-- country: 🇫🇷FR
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
   name: 🇫🇷FR_19_7@16
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+- country: 🇫🇷FR
+  name: 🇫🇷FR_20_7@17
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.36.81.143
+  server: 13.37.21.185
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - cipher: aes-128-gcm
   country: 🇬🇧GB
-  name: 🇬🇧GB_22 |39.89Mb_7@19
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇬🇧GB
-  name: 🇬🇧GB_23 |18.01Mb_7@20
+  name: 🇬🇧GB_22 |21.83Mb_7@19
   password: shadowsocks
   port: 443
   server: 212.102.53.194
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇬🇧GB
+  name: 🇬🇧GB_24 |13.11Mb_7@21
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
   type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇬🇧GB_26 |25.28Mb_7@23
+  name: 🇬🇧GB_27 |23.36Mb_7@24
   network: ws
   port: 443
   server: 149.7.16.33
@@ -3884,16 +3915,7 @@ proxies:
   type: vmess
   uuid: 63ab66f1-4d71-424e-8f2d-f4fb90fc92a2
 - country: 🇮🇪IE
-  name: 🇮🇪IE_32 |58.81Mb_7@28
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 54.170.224.134
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇮🇪IE
-  name: 🇮🇪IE_33_7@29
+  name: 🇮🇪IE_31_7@27
   password: telegram-id-privatevpns
   port: 22222
   server: 52.210.222.85
@@ -3903,34 +3925,35 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
+  name: Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
   password: 21586aab-3a37-4f55-b8b7-5ae69572d403
   port: 1935
   server: 85.133.241.75
   type: ss
 - cipher: aes-256-cfb
   country: 🇯🇵JP
-  name: 🇯🇵JP_37 |22.48Mb_7@33
+  name: 🇯🇵JP_35 |27.36Mb_7@31
   password: amazonskr05
   port: 443
-  server: 52.68.44.53
+  server: 18.181.152.92
   type: ss
 - cipher: aes-256-cfb
   country: 🇯🇵JP
-  name: 🇯🇵JP_40 | 4.53Mb_7@36
-  password: amazonskr05
-  port: 443
-  server: 54.178.191.236
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  name: 🇯🇵JP_41 | 8.29Mb_7@37
+  name: 🇯🇵JP_36 | 8.29Mb_7@32
   password: amazonskr05
   port: 443
   server: 54.238.219.226
   type: ss
 - country: 🇯🇵JP
-  name: Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
+  name: Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: ru01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵JP
+  name: Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: tw02.trojanyyds.xyz
@@ -3938,23 +3961,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🇯🇵JP
-  name: Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: sg01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  name: Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: my01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  name: 🇯🇵JP_46 |75.28Mb_7@42
+  name: 🇯🇵JP_39 |16.97Mb_7@35
   password: '3723507166611775488'
   port: 443
   server: 18.180.140.208
@@ -3962,30 +3969,67 @@ proxies:
   sni: fleet-weevil.boa152.lol
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹LT
-  name: 🇱🇹LT_49 |22.49Mb_7@45
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹LT
-  name: 🇱🇹LT_52 | 2.74Mb_7@48
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹LT
-  name: 🇱🇹LT_57 |60.46Mb_7@53
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  type: ss
+- country: 🇯🇵JP
+  name: Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: uk01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵JP
+  name: Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵JP
+  name: Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us02.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵JP
+  name: Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: my01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵JP
+  name: Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇰🇷KR
+  name: 🇰🇷KR_47_7@43
+  password: '3723507166611775488'
+  port: 443
+  server: 3.36.20.142
+  skip-cert-verify: true
+  sni: super-goblin.treefrog761.one
+  type: trojan
+  udp: true
+- country: 🇰🇷KR
+  name: Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  password: e8105dfd24414268b6c7652c63731097
+  port: 443
+  server: 132.145.94.80
+  skip-cert-verify: true
+  sni: yournextcareerstep.online
+  type: trojan
+  udp: true
 - cipher: aes-128-cfb
   country: 🇳🇱NL
-  name: 🇳🇱NL_60 |53.99Mb_7@56
+  name: 🇳🇱NL_50 |468.37Mb_7@46
   password: shadowsocks
   port: 443
   server: 109.201.152.181
@@ -3995,364 +4039,7 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  network: ws
-  port: 8080
-  server: 45.131.7.241
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  network: ws
-  port: 8080
-  server: 45.131.7.238
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  network: ws
-  port: 8080
-  server: 45.131.7.98
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  network: ws
-  port: 8080
-  server: 45.131.7.10
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  network: ws
-  port: 8080
-  server: 45.131.7.93
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  network: ws
-  port: 8080
-  server: 45.131.7.234
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  network: ws
-  port: 8080
-  server: 45.131.7.246
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  network: ws
-  port: 8080
-  server: 45.131.7.252
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  network: ws
-  port: 8080
-  server: 45.131.7.95
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  network: ws
-  port: 8080
-  server: 45.131.7.235
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  network: ws
-  port: 8080
-  server: 45.131.7.254
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  network: ws
-  port: 8080
-  server: 45.131.7.239
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  network: ws
-  port: 8080
-  server: 45.131.7.99
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  network: ws
-  port: 8080
-  server: 45.131.7.0
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  network: ws
-  port: 8080
-  server: 45.131.7.101
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  network: ws
-  port: 8080
-  server: 45.131.7.94
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  network: ws
-  port: 8080
-  server: 45.131.7.97
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  network: ws
-  port: 8080
-  server: 45.131.7.247
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  network: ws
-  port: 8080
-  server: 45.131.7.100
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  network: ws
-  port: 8080
-  server: 45.131.7.230
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  network: ws
-  port: 8080
-  server: 45.131.7.242
-  servername: luodi.davesuen.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      HOST: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
+  name: Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
   network: ws
   port: 8080
   server: 45.131.7.251
@@ -4369,10 +4056,10 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
+  name: Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
   network: ws
   port: 8080
-  server: 45.131.7.253
+  server: 45.131.7.100
   servername: luodi.davesuen.store
   skip-cert-verify: true
   type: vmess
@@ -4386,7 +4073,75 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
+  name: Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  network: ws
+  port: 8080
+  server: 45.131.7.239
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  network: ws
+  port: 8080
+  server: 45.131.7.99
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  network: ws
+  port: 8080
+  server: 45.131.7.0
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  network: ws
+  port: 8080
+  server: 45.131.7.101
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
   network: ws
   port: 8080
   server: 45.131.7.232
@@ -4403,10 +4158,10 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
+  name: Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
   network: ws
   port: 8080
-  server: 45.131.7.92
+  server: 45.131.7.93
   servername: luodi.davesuen.store
   skip-cert-verify: true
   type: vmess
@@ -4420,10 +4175,10 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
+  name: Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
   network: ws
   port: 8080
-  server: 45.131.7.1
+  server: 45.131.7.246
   servername: luodi.davesuen.store
   skip-cert-verify: true
   type: vmess
@@ -4437,10 +4192,10 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
+  name: Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
   network: ws
   port: 8080
-  server: 45.131.7.255
+  server: 45.131.7.98
   servername: luodi.davesuen.store
   skip-cert-verify: true
   type: vmess
@@ -4454,10 +4209,10 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
+  name: Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
   network: ws
   port: 8080
-  server: 45.131.7.90
+  server: 45.131.7.238
   servername: luodi.davesuen.store
   skip-cert-verify: true
   type: vmess
@@ -4471,7 +4226,24 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
+  name: Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  network: ws
+  port: 8080
+  server: 45.131.7.97
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
   network: ws
   port: 8080
   server: 45.131.7.96
@@ -4488,7 +4260,126 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
+  name: Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  network: ws
+  port: 8080
+  server: 45.131.7.91
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  network: ws
+  port: 8080
+  server: 45.131.7.94
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  network: ws
+  port: 8080
+  server: 45.131.7.234
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  network: ws
+  port: 8080
+  server: 45.131.7.10
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  network: ws
+  port: 8080
+  server: 45.131.7.92
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  network: ws
+  port: 8080
+  server: 45.131.7.235
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  network: ws
+  port: 8080
+  server: 45.131.7.252
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
   network: ws
   port: 8080
   server: 45.131.7.227
@@ -4505,10 +4396,163 @@ proxies:
   country: 🇳🇱NL
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
+  name: Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
   network: ws
   port: 8080
-  server: 45.131.7.91
+  server: 45.131.7.253
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  network: ws
+  port: 8080
+  server: 45.131.7.254
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  network: ws
+  port: 8080
+  server: 45.131.7.242
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  network: ws
+  port: 8080
+  server: 45.131.7.1
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  network: ws
+  port: 8080
+  server: 45.131.7.247
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  network: ws
+  port: 8080
+  server: 45.131.7.255
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  network: ws
+  port: 8080
+  server: 45.131.7.90
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  network: ws
+  port: 8080
+  server: 45.131.7.95
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  network: ws
+  port: 8080
+  server: 45.131.7.230
+  servername: luodi.davesuen.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      HOST: luodi.davesuen.store
+    path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  network: ws
+  port: 8080
+  server: 45.131.7.241
   servername: luodi.davesuen.store
   skip-cert-verify: true
   type: vmess
@@ -4519,41 +4563,48 @@ proxies:
     path: /2a4fa40f
 - cipher: aes-256-cfb
   country: 🇵🇱PL
-  name: 🇵🇱PL_95 | 0.77Mb_7@91
+  name: 🇵🇱PL_83 | 1.45Mb_7@79
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇵🇱PL
+  name: 🇵🇱PL_87 | 1.83Mb_7@83
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇵🇱PL
+  name: 🇵🇱PL_91 | 0.77Mb_7@87
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   country: 🇵🇱PL
-  name: 🇵🇱PL_99 | 1.67Mb_7@95
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇵🇱PL
-  name: 🇵🇱PL_100 | 0.71Mb_7@96
+  name: 🇵🇱PL_93 | 0.71Mb_7@89
   password: TPqX8edgbAURcAMb
   port: 9079
   server: 217.30.10.18
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇷🇺RU
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU_107 |39.96Mb_7@102
-  network: ws
-  port: 53274
-  server: 194.87.68.115
-  skip-cert-verify: true
-  type: vmess
-  uuid: 05dea94e-ebc1-4045-ab7d-9cc19affebe7
-  ws-opts:
-    path: /
+- cipher: aes-256-cfb
+  country: 🇵🇱PL
+  name: 🇵🇱PL_95 | 1.09Mb_7@91
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇵🇱PL
+  name: 🇵🇱PL_96 | 2.11Mb_7@92
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.18
+  type: ss
 - country: 🇸🇪SE
-  name: 🇸🇪SE_108_7@103
+  name: 🇸🇪SE_99 |49.09Mb_7@94
   password: telegram-id-privatevpns
   port: 22222
   server: 13.50.254.223
@@ -4563,168 +4614,175 @@ proxies:
   udp: true
 - cipher: chacha20-ietf
   country: 🇸🇬SG
-  name: 🇸🇬SG_109 | 2.30Mb_7@104
+  name: 🇸🇬SG_102 | 2.23Mb_7@97
   password: asd123456
   port: 8388
   server: 202.162.109.169
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_114 | 4.30Mb_7@109
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 69.50.95.53
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_115 | 8.74Mb_7@110
+  name: 🇺🇸US_106 | 8.50Mb_7@101
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.110.1.46
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_117 | 8.75Mb_7@112
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.110.1.46
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US_118 | 6.34Mb_7@113
-  password: amazonskr05
-  port: 443
-  server: 54.69.180.74
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_119 |143.01Mb_7@114
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 23.157.40.89
+  name: 🇺🇸US_107 | 3.09Mb_7@102
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 69.50.95.53
   type: ss
 - cipher: rc4-md5
   country: 🇺🇸US
-  name: 🇺🇸US_121 |298.61Mb_7@116
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: 🇺🇸US_123 |197.60Mb_7@117
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_124 | 8.68Mb_7@118
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.110.1.46
-  type: ss
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: 🇺🇸US_127 |31.02Mb_7@121
+  name: 🇺🇸US_111 |148.00Mb_7@104
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_128 | 5.30Mb_7@122
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 69.50.95.53
+  name: 🇺🇸US_112 | 8.74Mb_7@105
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.110.1.46
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_113 |19.81Mb_7@106
+  password: amazonskr05
+  port: 443
+  server: 34.219.80.203
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_129 | 8.68Mb_7@123
-  password: Y6R9pAtvxxzmGC
-  port: 5000
+  name: 🇺🇸US_116 | 8.75Mb_7@108
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.51
+  type: ss
+- cipher: rc4-md5
+  country: 🇺🇸US
+  name: 🇺🇸US_117 |298.61Mb_7@109
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_120 | 8.72Mb_7@112
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.110.1.46
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_121 | 8.74Mb_7@113
+  password: FoOiGlkAA9yPEGP
+  port: 7307
   server: 38.110.1.46
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  name: 🇺🇸US_130 | 9.75Mb_7@124
+  name: 🇺🇸US_122 | 4.09Mb_7@114
   password: LLInmUBrxMgEn85Y6vVjeH
   port: 56220
   server: 185.172.129.91
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_131 | 8.74Mb_7@125
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.51
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_132 | 8.73Mb_7@126
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.110.1.46
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_133 | 8.56Mb_7@127
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 142.202.48.105
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_136 | 8.72Mb_7@129
+  name: 🇺🇸US_123 | 8.74Mb_7@115
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 38.110.1.46
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_137 | 8.72Mb_7@130
+  name: 🇺🇸US_124 | 8.73Mb_7@116
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.110.1.46
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_139 | 7.96Mb_7@132
-  password: amazonskr05
-  port: 443
-  server: 43.207.232.228
+  name: 🇺🇸US_125 |143.01Mb_7@117
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 23.157.40.89
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_140 | 8.71Mb_7@133
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.110.1.46
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_142 | 8.56Mb_7@135
+  name: 🇺🇸US_126 | 8.61Mb_7@118
   password: KixLvKzwjekG00rm
   port: 8080
   server: 38.75.136.21
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_143 | 8.46Mb_7@136
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_144 | 8.45Mb_7@137
+  name: 🇺🇸US_127 | 8.51Mb_7@119
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 38.75.136.21
   type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_128 | 8.57Mb_7@120
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.75.136.21
+  type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
+  name: 🇺🇸US_130 |36.60Mb_7@122
+  password: amazonskr05
+  port: 443
+  server: 35.161.59.194
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_131 | 2.65Mb_7@123
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 69.50.95.53
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_132 | 7.96Mb_7@124
+  password: amazonskr05
+  port: 443
+  server: 43.207.232.228
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_134 | 8.68Mb_7@126
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.110.1.46
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_135 | 8.70Mb_7@127
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.110.1.46
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_136 | 8.56Mb_7@128
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 142.202.48.105
+  type: ss
+- cipher: rc4-md5
+  country: 🇺🇸US
+  name: 🇺🇸US_137 |20.03Mb_7@129
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.51
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
   obfs: http_simple
   password: Uk92CS
   port: 13000
@@ -4736,25 +4794,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_146_7@139
-  network: ws
-  port: 443
-  server: hms07.xfixedfloat.cfd
-  servername: afrhms07.xfixedfloat.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      HOST: afrhms07.xfixedfloat.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
+  name: Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
   network: ws
   port: 80
   server: 151.101.130.168
@@ -4767,16 +4807,15 @@ proxies:
       HOST: amd.al
     path: /?ed=2048
 - country: 🇺🇸US
-  name: 🇺🇸US_149_7@142
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.118.98
+  name: Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: hk03.trojanyyds.xyz
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
+  name: Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: de01.trojanyyds.xyz
@@ -4784,39 +4823,30 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_151 |67.44Mb_7@144
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.177.35.90
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
+  name: Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: us01.trojanyyds.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🇺🇸US
-  name: Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: hk03.trojanyyds.xyz
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
+  network: ws
+  port: 8880
+  server: 104.16.143.237
+  servername: yd.changyouVPN.top
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🏁ZZ
-  name: 🏁ZZ_158_7@151
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 160.30.21.105
-  skip-cert-verify: true
-  sni: std1.loadingip.com
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: 7efc3b9a-e73f-4e40-b57a-5319c463148b
+  ws-opts:
+    headers:
+      HOST: yd.changyouVPN.top
+    path: /?ed=2048
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -5214,98 +5244,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -5702,98 +5736,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6194,98 +6232,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   type: select
 - name: 📲 电报信息
   proxies:
@@ -6683,98 +6725,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -7172,98 +7218,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -7661,98 +7711,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -8167,98 +8221,102 @@ proxy-groups:
   - '12|github.com/freefq - 美国CloudFla... #2_5@66'
   - '12|github.com/freefq - 美国CloudFla... #3_5@69'
   - 高性价比机场:https://kfyun.uk_6@0
-  - _01 |373.00Mb_7@0
-  - _02 |30.91Mb_7@1
-  - Relay_🇨🇦CA-🇨🇦CA_07 |36.55Mb_7@5
-  - 🇫🇷FR_15_7@12
-  - 🇫🇷FR_16_7@13
+  - _01 |43.30Mb_7@0
+  - Relay_🇨🇦CA-🇨🇦CA_07 |35.88Mb_7@5
+  - Relay_🇨🇾CY-🇺🇸US_11 | 7.34Mb_7@8
+  - 🇩🇪DE_13 |41.42Mb_7@10
+  - 🇩🇪DE_16_7@13
+  - 🇫🇮FI_17 |13.20Mb_7@14
+  - 🇫🇷FR_18_7@15
   - 🇫🇷FR_19_7@16
-  - 🇬🇧GB_22 |39.89Mb_7@19
-  - 🇬🇧GB_23 |18.01Mb_7@20
-  - 🇬🇧GB_26 |25.28Mb_7@23
+  - 🇫🇷FR_20_7@17
+  - 🇬🇧GB_22 |21.83Mb_7@19
+  - 🇬🇧GB_24 |13.11Mb_7@21
+  - 🇬🇧GB_27 |23.36Mb_7@24
   - 🇭🇰HK_29_7@25
-  - 🇮🇪IE_32 |58.81Mb_7@28
-  - 🇮🇪IE_33_7@29
-  - Relay_🇮🇷IR-🇹🇷TR_34 | 5.77Mb_7@30
-  - 🇯🇵JP_37 |22.48Mb_7@33
-  - 🇯🇵JP_40 | 4.53Mb_7@36
-  - 🇯🇵JP_41 | 8.29Mb_7@37
-  - Relay_🇯🇵JP-🇺🇸US_42 | 9.87Mb_7@38
-  - Relay_🇯🇵JP-🇬🇧GB_43 |20.81Mb_7@39
-  - Relay_🇯🇵JP-🇲🇾MY_45_7@41
-  - 🇯🇵JP_46 |75.28Mb_7@42
-  - 🇱🇹LT_49 |22.49Mb_7@45
-  - 🇱🇹LT_52 | 2.74Mb_7@48
-  - 🇱🇹LT_57 |60.46Mb_7@53
-  - 🇳🇱NL_60 |53.99Mb_7@56
-  - Relay_🇳🇱NL-🇺🇸US_61 | 6.21Mb_7@57
-  - Relay_🇳🇱NL-🇺🇸US_62 | 5.46Mb_7@58
-  - Relay_🇳🇱NL-🇺🇸US_63 | 7.09Mb_7@59
-  - Relay_🇳🇱NL-🇺🇸US_64 | 4.67Mb_7@60
-  - Relay_🇳🇱NL-🇺🇸US_65 | 2.83Mb_7@61
-  - Relay_🇳🇱NL-🇺🇸US_66 | 7.07Mb_7@62
-  - Relay_🇳🇱NL-🇺🇸US_67 | 2.87Mb_7@63
-  - Relay_🇳🇱NL-🇺🇸US_68 | 6.04Mb_7@64
-  - Relay_🇳🇱NL-🇺🇸US_69 | 1.70Mb_7@65
-  - Relay_🇳🇱NL-🇺🇸US_70 | 3.05Mb_7@66
-  - Relay_🇳🇱NL-🇺🇸US_71 | 3.21Mb_7@67
-  - Relay_🇳🇱NL-🇺🇸US_72 | 5.04Mb_7@68
-  - Relay_🇳🇱NL-🇺🇸US_73 | 2.62Mb_7@69
-  - Relay_🇳🇱NL-🇺🇸US_74 | 6.58Mb_7@70
-  - Relay_🇳🇱NL-🇺🇸US_75 | 2.46Mb_7@71
-  - Relay_🇳🇱NL-🇺🇸US_76 |11.91Mb_7@72
-  - Relay_🇳🇱NL-🇺🇸US_77 |12.01Mb_7@73
-  - Relay_🇳🇱NL-🇺🇸US_78 | 3.10Mb_7@74
-  - Relay_🇳🇱NL-🇺🇸US_79 | 5.05Mb_7@75
-  - Relay_🇳🇱NL-🇺🇸US_80 | 9.73Mb_7@76
-  - Relay_🇳🇱NL-🇺🇸US_81 | 6.73Mb_7@77
-  - Relay_🇳🇱NL-🇺🇸US_82 | 3.19Mb_7@78
-  - Relay_🇳🇱NL-🇺🇸US_83 | 6.09Mb_7@79
-  - Relay_🇳🇱NL-🇺🇸US_84 | 3.03Mb_7@80
-  - Relay_🇳🇱NL-🇺🇸US_85 |10.14Mb_7@81
-  - Relay_🇳🇱NL-🇺🇸US_86 | 6.08Mb_7@82
-  - Relay_🇳🇱NL-🇺🇸US_87 |14.05Mb_7@83
-  - Relay_🇳🇱NL-🇺🇸US_88 | 3.08Mb_7@84
-  - Relay_🇳🇱NL-🇺🇸US_89 | 8.60Mb_7@85
-  - Relay_🇳🇱NL-🇺🇸US_90 | 5.76Mb_7@86
-  - Relay_🇳🇱NL-🇺🇸US_91 | 3.09Mb_7@87
-  - 🇵🇱PL_95 | 0.77Mb_7@91
-  - 🇵🇱PL_99 | 1.67Mb_7@95
-  - 🇵🇱PL_100 | 0.71Mb_7@96
-  - 🇷🇺RU_107 |39.96Mb_7@102
-  - 🇸🇪SE_108_7@103
-  - 🇸🇬SG_109 | 2.30Mb_7@104
-  - 🇺🇸US_114 | 4.30Mb_7@109
-  - 🇺🇸US_115 | 8.74Mb_7@110
-  - 🇺🇸US_117 | 8.75Mb_7@112
-  - 🇺🇸US_118 | 6.34Mb_7@113
-  - 🇺🇸US_119 |143.01Mb_7@114
-  - 🇺🇸US_121 |298.61Mb_7@116
-  - 🇺🇸US_123 |197.60Mb_7@117
-  - 🇺🇸US_124 | 8.68Mb_7@118
-  - 🇺🇸US_127 |31.02Mb_7@121
-  - 🇺🇸US_128 | 5.30Mb_7@122
-  - 🇺🇸US_129 | 8.68Mb_7@123
-  - 🇺🇸US_130 | 9.75Mb_7@124
-  - 🇺🇸US_131 | 8.74Mb_7@125
-  - 🇺🇸US_132 | 8.73Mb_7@126
-  - 🇺🇸US_133 | 8.56Mb_7@127
-  - 🇺🇸US_136 | 8.72Mb_7@129
-  - 🇺🇸US_137 | 8.72Mb_7@130
-  - 🇺🇸US_139 | 7.96Mb_7@132
-  - 🇺🇸US_140 | 8.71Mb_7@133
-  - 🇺🇸US_142 | 8.56Mb_7@135
-  - 🇺🇸US_143 | 8.46Mb_7@136
-  - 🇺🇸US_144 | 8.45Mb_7@137
-  - Relay_🇺🇸US-🇺🇸US_145 |126.00Mb_7@138
-  - Relay_🇺🇸US-🇺🇸US_146_7@139
-  - Relay_🇺🇸US-🇺🇸US_147 |212.43Mb_7@140
-  - 🇺🇸US_149_7@142
-  - Relay_🇺🇸US-🇩🇪DE_150 |10.17Mb_7@143
-  - 🇺🇸US_151 |67.44Mb_7@144
-  - Relay_🇺🇸US-🇺🇸US_152 |20.85Mb_7@145
-  - Relay_🇺🇸US-🇸🇮SI_156 |10.99Mb_7@149
-  - 🏁ZZ_158_7@151
+  - 🇮🇪IE_31_7@27
+  - Relay_🇮🇷IR-🇹🇷TR_32 | 5.77Mb_7@28
+  - 🇯🇵JP_35 |27.36Mb_7@31
+  - 🇯🇵JP_36 | 8.29Mb_7@32
+  - Relay_🇯🇵JP-🇷🇺RU_37 | 8.77Mb_7@33
+  - Relay_🇯🇵JP-🇺🇸US_38 | 9.87Mb_7@34
+  - 🇯🇵JP_39 |16.97Mb_7@35
+  - Relay_🇯🇵JP-🇬🇧GB_40 | 1.49Mb_7@36
+  - Relay_🇯🇵JP-🇬🇧GB_41 |20.81Mb_7@37
+  - Relay_🇯🇵JP-🇺🇸US_42 | 8.60Mb_7@38
+  - Relay_🇯🇵JP-🇲🇾MY_44_7@40
+  - Relay_🇯🇵JP-🇺🇸US_45 | 1.58Mb_7@41
+  - 🇰🇷KR_47_7@43
+  - Relay_🇰🇷KR-🇫🇷FR_48_7@44
+  - 🇳🇱NL_50 |468.37Mb_7@46
+  - Relay_🇳🇱NL-🇺🇸US_51 | 7.40Mb_7@47
+  - Relay_🇳🇱NL-🇺🇸US_52 | 4.35Mb_7@48
+  - Relay_🇳🇱NL-🇺🇸US_53 | 4.35Mb_7@49
+  - Relay_🇳🇱NL-🇺🇸US_54 | 2.93Mb_7@50
+  - Relay_🇳🇱NL-🇺🇸US_55 | 8.07Mb_7@51
+  - Relay_🇳🇱NL-🇺🇸US_56 | 7.68Mb_7@52
+  - Relay_🇳🇱NL-🇺🇸US_57 | 7.74Mb_7@53
+  - Relay_🇳🇱NL-🇺🇸US_58 | 7.91Mb_7@54
+  - Relay_🇳🇱NL-🇺🇸US_59 | 7.46Mb_7@55
+  - Relay_🇳🇱NL-🇺🇸US_60 | 8.56Mb_7@56
+  - Relay_🇳🇱NL-🇺🇸US_61 | 3.19Mb_7@57
+  - Relay_🇳🇱NL-🇺🇸US_62 | 7.35Mb_7@58
+  - Relay_🇳🇱NL-🇺🇸US_63 | 8.63Mb_7@59
+  - Relay_🇳🇱NL-🇺🇸US_64 | 8.53Mb_7@60
+  - Relay_🇳🇱NL-🇺🇸US_65 | 5.18Mb_7@61
+  - Relay_🇳🇱NL-🇺🇸US_66 | 3.23Mb_7@62
+  - Relay_🇳🇱NL-🇺🇸US_67 | 7.45Mb_7@63
+  - Relay_🇳🇱NL-🇺🇸US_68 | 7.37Mb_7@64
+  - Relay_🇳🇱NL-🇺🇸US_69 | 7.64Mb_7@65
+  - Relay_🇳🇱NL-🇺🇸US_70 | 7.61Mb_7@66
+  - Relay_🇳🇱NL-🇺🇸US_71 | 5.80Mb_7@67
+  - Relay_🇳🇱NL-🇺🇸US_72 | 6.47Mb_7@68
+  - Relay_🇳🇱NL-🇺🇸US_73 | 2.17Mb_7@69
+  - Relay_🇳🇱NL-🇺🇸US_74 | 5.06Mb_7@70
+  - Relay_🇳🇱NL-🇺🇸US_75 | 2.83Mb_7@71
+  - Relay_🇳🇱NL-🇺🇸US_76 | 7.43Mb_7@72
+  - Relay_🇳🇱NL-🇺🇸US_77 |10.34Mb_7@73
+  - Relay_🇳🇱NL-🇺🇸US_78 | 6.76Mb_7@74
+  - Relay_🇳🇱NL-🇺🇸US_79 | 7.65Mb_7@75
+  - Relay_🇳🇱NL-🇺🇸US_80 |11.06Mb_7@76
+  - Relay_🇳🇱NL-🇺🇸US_81 | 8.43Mb_7@77
+  - 🇵🇱PL_83 | 1.45Mb_7@79
+  - 🇵🇱PL_87 | 1.83Mb_7@83
+  - 🇵🇱PL_91 | 0.77Mb_7@87
+  - 🇵🇱PL_93 | 0.71Mb_7@89
+  - 🇵🇱PL_95 | 1.09Mb_7@91
+  - 🇵🇱PL_96 | 2.11Mb_7@92
+  - 🇸🇪SE_99 |49.09Mb_7@94
+  - 🇸🇬SG_102 | 2.23Mb_7@97
+  - 🇺🇸US_106 | 8.50Mb_7@101
+  - 🇺🇸US_107 | 3.09Mb_7@102
+  - 🇺🇸US_111 |148.00Mb_7@104
+  - 🇺🇸US_112 | 8.74Mb_7@105
+  - 🇺🇸US_113 |19.81Mb_7@106
+  - 🇺🇸US_116 | 8.75Mb_7@108
+  - 🇺🇸US_117 |298.61Mb_7@109
+  - 🇺🇸US_120 | 8.72Mb_7@112
+  - 🇺🇸US_121 | 8.74Mb_7@113
+  - 🇺🇸US_122 | 4.09Mb_7@114
+  - 🇺🇸US_123 | 8.74Mb_7@115
+  - 🇺🇸US_124 | 8.73Mb_7@116
+  - 🇺🇸US_125 |143.01Mb_7@117
+  - 🇺🇸US_126 | 8.61Mb_7@118
+  - 🇺🇸US_127 | 8.51Mb_7@119
+  - 🇺🇸US_128 | 8.57Mb_7@120
+  - 🇺🇸US_130 |36.60Mb_7@122
+  - 🇺🇸US_131 | 2.65Mb_7@123
+  - 🇺🇸US_132 | 7.96Mb_7@124
+  - 🇺🇸US_134 | 8.68Mb_7@126
+  - 🇺🇸US_135 | 8.70Mb_7@127
+  - 🇺🇸US_136 | 8.56Mb_7@128
+  - 🇺🇸US_137 |20.03Mb_7@129
+  - Relay_🇺🇸US-🇺🇸US_138 |133.00Mb_7@130
+  - Relay_🇺🇸US-🇺🇸US_140 |212.43Mb_7@132
+  - Relay_🇺🇸US-🇸🇮SI_141 |10.99Mb_7@133
+  - Relay_🇺🇸US-🇩🇪DE_145 |10.17Mb_7@137
+  - Relay_🇺🇸US-🇺🇸US_146 |20.85Mb_7@138
+  - Relay_🏁ZZ-🇺🇸US_149 |39.03Mb_7@141
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
